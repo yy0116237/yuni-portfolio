@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>龙心滢 / Yuni | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DynaPuff:wght@500;600&family=LXGW+WenKai:wght@400;700&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Dot pattern overlay -->
+  <div class="dot-overlay"></div>
+  <div class="page-fade" id="pageFade" aria-hidden="true"></div>
+  <div class="edu-floating-tip" id="eduFloatingTip" role="tooltip"></div>
+
+  <!-- Transition overlay for Home → About -->
+  <div class="transition-overlay" id="transitionOverlay">
+    <img src="assets/folder-drop.png" alt="folder" class="folder-drop" id="folderDrop">
+  </div>
+
+  <!-- Transition overlay for Education → Experience -->
+  <div class="archive-transition" id="archiveTransition" aria-hidden="true">
+    <div class="archive-transition-notes">
+      <img src="assets/sticky-blue.png" alt="" class="archive-transition-note archive-transition-note-blue">
+      <img src="assets/sticky-pink.png" alt="" class="archive-transition-note archive-transition-note-pink">
+      <img src="assets/sticky-yellow.png" alt="" class="archive-transition-note archive-transition-note-yellow">
+    </div>
+  </div>
+
+  <!-- Main wrapper -->
+  <div class="site-wrapper" id="siteWrapper">
+
+    <!-- ==================== SECTION 0: HOMEPAGE ==================== -->
+    <section class="section section-home" data-index="0" id="sectionHome">
+      <div class="bg-layer bg-homepage"></div>
+
+      <!-- Welcome thought bubble: a single transparent asset + live text -->
+      <div class="welcome-bubble" aria-label="Welcome">
+        <img src="assets/bubble.png" class="welcome-bubble-art" alt="">
+        <span class="welcome-text">Welcome</span>
+      </div>
+
+      <!-- Language toggle -->
+      <div class="lang-toggle" id="langToggle" role="button" tabindex="0" aria-label="Switch language">
+        <span class="lang-label" data-zh="ZH" data-en="EN">ZH</span>
+        <span class="lang-sep">/</span>
+        <span class="lang-switch" id="langSwitch" data-zh="EN" data-en="ZH">EN</span>
+        <span class="lang-hint" id="langHint" data-zh="How about in English?" data-en="切换中文？">How about in English?</span>
+      </div>
+
+      <!-- About trigger zone -->
+      <div class="about-trigger" id="aboutTrigger"></div>
+    </section>
+
+    <!-- ==================== SECTION 1: ABOUT ME ==================== -->
+    <section class="section section-about" data-index="1" id="sectionAbout">
+      <div class="bg-layer bg-about"></div>
+      <div class="about-text-area" id="aboutTextArea">
+        <h2 class="about-title" data-zh="About me !" data-en="About me !">About me !</h2>
+        <p class="about-name" data-zh="龙心滢 / Yuni" data-en="Xinying Long">龙心滢 / Yuni</p>
+        <p class="about-body" data-zh="27 届硕士在读，具备策略运营、产品运营与境外销售运营的经历。曾参与 C 端增长策略、B 端客户维护、用户分层与需求分析、数据驱动的流程优化等，并独立完成电商店铺的全链路运营。" data-en="Master’s candidate, Class of 2027, with experience in growth strategy, marketplace operations and cross-border B2B sales. Experienced in user segmentation, client operations and data-led process improvement; independently ran an e-commerce store end to end.">27 届硕士在读，具备策略运营、产品运营与境外销售运营的经历。曾参与 C 端增长策略、B 端客户维护、用户分层与需求分析、数据驱动的流程优化等，并独立完成电商店铺的全链路运营。</p>
+        <div class="washi-keywords" aria-label="Core strengths">
+          <span class="washi-tape tape-growth" data-zh="增长" data-en="Growth">增长</span>
+          <span class="washi-tape tape-user" data-zh="用户" data-en="User">用户</span>
+          <span class="washi-tape tape-content" data-zh="内容" data-en="Content">内容</span>
+          <span class="washi-tape tape-data" data-zh="数据" data-en="Data">数据</span>
+          <span class="washi-tape tape-collab" data-zh="协同" data-en="Collaboration">协同</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 2: EDUCATION ==================== -->
+    <section class="section section-edu" data-index="2" id="sectionEdu">
+      <div class="bg-layer bg-edu"></div>
+      <div class="edu-container">
+        <header class="edu-heading">
+          <h2 data-zh="教育背景" data-en="Education">教育背景</h2>
+          <p data-zh="从课堂学习到研究探索，再到跨领域实践，我始终保持好奇，探索更多的可能性。" data-en="From classroom learning to research and cross-disciplinary practice, I stay curious and keep exploring what is possible.">从课堂学习到研究探索，再到跨领域实践，我始终保持好奇，探索更多的可能性。</p>
+        </header>
+
+        <article class="edu-record edu-record-scut">
+          <img class="edu-badge" src="assets/badge-scut.png" alt="华南理工大学校徽">
+          <div class="edu-record-copy">
+            <h3 data-zh="华南理工大学" data-en="South China University of Technology">华南理工大学</h3>
+            <p class="edu-degree" data-zh="旅游管理硕士｜2024.09–2027.06" data-en="M.S. in Tourism Management | 2024.09–2027.06">旅游管理硕士｜2024.09–2027.06</p>
+            <p data-zh="研究方向聚焦节事旅游，关注音乐节、演唱会等现场活动中的旅游者体验、行为意愿与社交媒体传播。" data-en="My research focuses on event tourism, including visitor experience, behavioural intention and social-media communication around music festivals and concerts.">研究方向聚焦节事旅游，关注音乐节、演唱会等现场活动中的旅游者体验、行为意愿与社交媒体传播。</p>
+            <p class="edu-tools"><strong data-zh="研究工具：" data-en="Research tools: ">研究工具：</strong>SPSS / AMOS / Python / Mplus</p>
+          </div>
+        </article>
+
+        <article class="edu-record edu-record-cug">
+          <img class="edu-badge" src="assets/badge-cug.png" alt="中国地质大学（武汉）校徽">
+          <div class="edu-record-copy">
+            <h3 data-zh="中国地质大学（武汉）" data-en="China University of Geosciences (Wuhan)">中国地质大学（武汉）</h3>
+            <p class="edu-degree" data-zh="旅游管理本科｜2020.09–2024.06" data-en="Bachelor of Management in Tourism Management | 2020.09–2024.06">旅游管理本科｜2020.09–2024.06</p>
+            <details class="edu-courses">
+              <summary><span data-zh="查看课程" data-en="View coursework">查看课程</span></summary>
+              <p data-zh="课程学习：管理学、市场营销学、经济学原理、电子商务、应用统计学、运筹学、企业战略管理、组织行为学、旅游市场营销策划、旅游经济学、旅游目的地管理、旅游消费者行为。" data-en="Coursework: Management, Marketing, Economics, E-commerce, Applied Statistics, Operations Research, Strategic Management, Organisational Behaviour, Tourism Marketing, Tourism Economics, Destination Management and Tourist Behaviour.">课程学习：管理学、市场营销学、经济学原理、电子商务、应用统计学、运筹学、企业战略管理、组织行为学、旅游市场营销策划、旅游经济学、旅游目的地管理、旅游消费者行为。</p>
+            </details>
+            <p data-zh="校园实践：参与电商创新、文旅创意策划与兴趣社群实践，逐步形成从用户需求洞察、内容表达，到方案策划与电商创新的综合项目经验。" data-en="Through e-commerce innovation, cultural-tourism planning and community projects, developed end-to-end project experience spanning user insight, content development, solution design and e-commerce innovation.">校园实践：参与电商创新、文旅创意策划与兴趣社群实践，逐步形成从用户需求洞察、内容表达，到方案策划与电商创新的综合项目经验。</p>
+          </div>
+        </article>
+
+        <div class="edu-achievements" aria-label="校园实践成果">
+          <button type="button" class="edu-achievement edu-tag-hover" data-tip-zh="第十三届全国大学生电子商务“创新、创意及创业”挑战赛全国特等奖" data-tip-en="National Grand Prize, 13th China College E-commerce Innovation, Creativity and Entrepreneurship Challenge" data-tip="第十三届全国大学生电子商务“创新、创意及创业”挑战赛全国特等奖"><b data-zh="电商创新" data-en="E-commerce">电商创新</b><span data-zh="全国特等奖" data-en="National Grand Prize">全国特等奖</span></button>
+          <button type="button" class="edu-achievement edu-tag-hover" data-tip-zh="第五届大学生旅游设计大赛全国优秀奖；第十二届红色旅游创意策划大赛华中地区一等奖" data-tip-en="National Excellence Award, 5th College Tourism Design Competition; Central China First Prize, 12th Red Tourism Creative Planning Competition" data-tip="第五届大学生旅游设计大赛全国优秀奖；第十二届红色旅游创意策划大赛华中地区一等奖"><b data-zh="创意策划" data-en="Creative Planning">创意策划</b><span data-zh="全国优秀奖 · 华中一等奖" data-en="National · Regional Awards">全国优秀奖 · 华中一等奖</span></button>
+          <button type="button" class="edu-achievement edu-tag-hover" data-tip-zh="2021 年度湖北省高校新闻奖三等奖（媒体融合类）" data-tip-en="Third Prize, 2021 Hubei University Journalism Awards (Media Convergence)" data-tip="2021 年度湖北省高校新闻奖三等奖（媒体融合类）"><b data-zh="兴趣参与" data-en="Media Practice">兴趣参与</b><span data-zh="省级三等奖" data-en="Provincial Third Prize">省级三等奖</span></button>
+        </div>
+        <div class="edu-honors">
+          <span data-tip-zh="中国地质大学（武汉）2024 年优秀本科毕业生" data-tip-en="2024 Outstanding Graduate, China University of Geosciences (Wuhan)" data-tip="中国地质大学（武汉）2024 年优秀本科毕业生" class="edu-tag-hover" tabindex="0" data-zh="2024 优秀本科毕业生" data-en="2024 Outstanding Graduate">2024 优秀本科毕业生</span>
+          <span data-tip-zh="2022—2023 年度经济管理学院专业发展贡献奖" data-tip-en="2022–2023 Professional Development Contribution Award, School of Economics and Management" data-tip="2022—2023 年度经济管理学院专业发展贡献奖" class="edu-tag-hover" tabindex="0" data-zh="专业发展贡献奖" data-en="Development Contribution Award">专业发展贡献奖</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 3: EXPERIENCE ==================== -->
+    <section class="section section-exp" data-index="3" id="sectionExp">
+      <div class="bg-layer bg-exp"></div>
+      <div class="exp-container">
+        <div class="exp-sticky exp-sticky-ctrip" data-exp="ctrip">
+          <img src="assets/sticky-blue.png" alt="Ctrip" class="sticky-bg">
+          <div class="sticky-label">
+            <strong data-zh="携程" data-en="Ctrip">携程</strong>
+            <span data-zh="策略运营" data-en="Growth Operations">策略运营</span>
+          </div>
+        </div>
+        <div class="exp-sticky exp-sticky-shein" data-exp="shein">
+          <img src="assets/sticky-pink.png" alt="Shein" class="sticky-bg">
+          <div class="sticky-label">
+            <strong data-zh="SHEIN" data-en="SHEIN">SHEIN</strong>
+            <span data-zh="产品运营" data-en="Marketplace Operations">产品运营</span>
+          </div>
+        </div>
+        <div class="exp-sticky exp-sticky-meituan" data-exp="meituan">
+          <img src="assets/sticky-yellow.png" alt="Meituan" class="sticky-bg">
+          <div class="sticky-label">
+            <strong data-zh="美团" data-en="Meituan">美团</strong>
+            <span data-zh="境外销售运营" data-en="Cross-border B2B Operations">境外销售运营</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 4: SKILLS & HOBBIES ==================== -->
+    <section class="section section-skills" data-index="4" id="sectionSkills">
+      <div class="bg-layer bg-skills"></div>
+      <div class="skills-stage" id="skillsStage" data-scene="0">
+        <nav class="skills-scene-nav" aria-label="Skills and hobbies scenes">
+          <button class="active" data-scene-to="0">01 Skills</button><button data-scene-to="1">02 Projects</button><button data-scene-to="2">03 Life</button>
+        </nav>
+
+        <div class="skills-scenes">
+          <section class="skills-scene skills-scene-abilities active" data-scene-panel="0">
+            <header class="skills-heading"><h2>Skills &amp; Ability</h2><p data-zh="把经验整理成可以持续复用的能力。" data-en="Turning experience into capabilities I can keep building on.">把经验整理成可以持续复用的能力。</p></header>
+            <div class="stationery-grid">
+              <button class="stationery-item stationery-clip" data-skill="operations"><i><img src="assets/generated/skill-operations-v1-alpha.png" alt=""></i><div class="stationery-title"><b data-zh="核心运营" data-en="Operations">核心运营</b><span>SKILL 01</span></div><div class="stationery-detail"></div></button>
+              <button class="stationery-item stationery-marker" data-skill="marketing"><i><img src="assets/generated/skill-marketing-v1-alpha.png" alt=""></i><div class="stationery-title"><b data-zh="品牌与营销" data-en="Brand & Marketing">品牌与营销</b><span>SKILL 02</span></div><div class="stationery-detail"></div></button>
+              <button class="stationery-item stationery-note" data-skill="soft"><i><img src="assets/generated/skill-soft-v1-alpha.png" alt=""></i><div class="stationery-title"><b data-zh="软实力" data-en="Soft Skills">软实力</b><span>ABILITY</span></div><div class="stationery-detail"></div></button>
+              <button class="stationery-item stationery-case" data-skill="tools"><i><img src="assets/generated/skill-tools-v1-alpha.png" alt=""></i><div class="stationery-title"><b data-zh="工具与语言" data-en="Tools & Language">工具与语言</b><span>TOOL KIT</span></div><div class="stationery-detail"></div></button>
+            </div>
+          </section>
+
+          <section class="skills-scene skills-scene-projects" data-scene-panel="1">
+            <header class="skills-heading"><h2>Selected Projects</h2><p data-zh="从兴趣出发，也用运营思维把事情做完整。" data-en="Personal interests, carried through with an operator's mindset.">从兴趣出发，也用运营思维把事情做完整。</p></header>
+            <div class="project-entries">
+              <button class="project-entry project-shop" data-project="shop"><span class="project-icon">▧</span><small>MY SHOP</small><strong data-zh="电商店铺运营" data-en="E-commerce Operations">电商店铺运营</strong><em>1000+ <i>orders</i> · GMV 10w+</em></button>
+              <button class="project-entry project-photo" data-project="photo"><img class="project-escape-logo" src="assets/escape-logo.png" alt="Escape to"><small>ESCAPE TO...</small><strong data-zh="摄影与内容创作" data-en="Photography & Content">摄影与内容创作</strong><em data-zh="摄影记者 2 年 · 公众号 8 篇" data-en="2 years as a photographer · 8 posts">摄影记者 2 年 · 公众号 8 篇</em></button>
+            </div>
+          </section>
+
+          <section class="skills-scene skills-scene-life" data-scene-panel="2">
+            <header class="skills-heading"><h2>Besides Work...</h2><p data-zh="除此之外，生活中的我……" data-en="A few more pieces of life beyond work...">除此之外，生活中的我……</p></header>
+            <button class="life-envelope" id="lifeEnvelope"><img class="envelope-closed" src="assets/generated/life-envelope-closed-v1-alpha.png" alt=""><img class="envelope-open" src="assets/generated/life-envelope-open-v1-alpha.png" alt=""><span data-zh="旅游 / 探店 / 听播客 / 看演唱会" data-en="Travel / Cafés / Podcasts / Concerts">旅游 / 探店 / 听播客 / 看演唱会</span><small data-zh="点击拆开" data-en="Open the envelope">点击拆开</small></button>
+            <div class="life-photo-wall" id="photoGrid" aria-live="polite"></div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 5: CONTACT ==================== -->
+    <section class="section section-contact" data-index="5" id="sectionContact">
+      <div class="bg-layer bg-contact-bg"></div>
+      <div class="contact-container">
+        <header class="contact-heading">
+          <h2>Let's keep in touch.</h2>
+          <p data-zh="谢谢你看到了这里~" data-en="Thanks for making it here~">谢谢你看到了这里~</p>
+        </header>
+        <div class="label-printer" id="labelPrinter">
+          <div class="label-output" id="labelOutput" aria-live="polite">
+            <div class="label-line" data-zh="姓名：龙心滢" data-en="Name: Long Xinying">姓名：龙心滢</div>
+            <div class="label-line" data-zh="邮箱：15179550275@163.com" data-en="Email: 15179550275@163.com">邮箱：15179550275@163.com</div>
+            <div class="label-line" data-zh="手机：15179550275" data-en="Phone: 15179550275">手机：15179550275</div>
+            <div class="label-line" data-zh="微信：lxy365085461" data-en="WeChat: lxy365085461">微信：lxy365085461</div>
+          </div>
+        </div>
+        <div class="contact-actions" aria-label="Quick contact actions">
+          <button class="contact-sticker sticker-email" type="button" data-copy="15179550275@163.com" data-message-zh="已复制邮箱，和我联络吧~" data-message-en="Email copied — let's connect!" aria-label="Copy email address">
+            <img src="assets/contact-sticker-email.png" alt="email me">
+          </button>
+          <button class="contact-sticker sticker-phone" type="button" data-copy="15179550275" data-message-zh="已复制号码，和我联络吧~" data-message-en="Number copied — let's connect!" aria-label="Copy phone number">
+            <img src="assets/contact-sticker-phone-smartphone.png" alt="phone me">
+          </button>
+        </div>
+      </div>
+      <div class="copy-toast" id="copyToast" role="status" aria-live="polite"></div>
+    </section>
+
+  </div>
+
+  <!-- ==================== PIXEL NAVIGATION ==================== -->
+  <div class="pixel-nav" id="pixelNav">
+    <div class="nav-click-hint" id="navClickHint"><span>Click!</span><i aria-hidden="true"></i></div>
+    <button class="pixel-avatar" id="pixelAvatar">
+      <img class="avatar-default" src="assets/pixel-avatar-default.png" alt="Open navigation">
+      <img class="avatar-wink" src="assets/pixel-avatar-wink.png" alt="Navigation open">
+    </button>
+    <nav class="nav-menu" id="navMenu">
+      <div class="nav-line"></div>
+      <ul class="nav-list">
+        <li><a href="#" data-nav="0" data-zh="Home" data-en="Home" class="nav-link">Home</a></li>
+        <li><a href="#" data-nav="1" data-zh="About me" data-en="About me" class="nav-link">About me</a></li>
+        <li><a href="#" data-nav="2" data-zh="Education" data-en="Education" class="nav-link">Education</a></li>
+        <li><a href="#" data-nav="3" data-zh="Experience" data-en="Experience" class="nav-link">Experience</a></li>
+        <li><a href="#" data-nav="4" data-zh="Skills & Hobbies" data-en="Skills & Hobbies" class="nav-link">Skills & Hobbies</a></li>
+        <li><a href="#" data-nav="5" data-zh="Contact" data-en="Contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- ==================== EXPERIENCE MODAL ==================== -->
+  <div class="modal-overlay" id="expModal">
+    <div class="modal-container" id="expModalContainer">
+      <div class="modal-landmark" aria-hidden="true"></div>
+      <button class="modal-close" id="expModalClose">×</button>
+      <div class="modal-content" id="expModalContent">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay skill-modal" id="skillModal">
+    <div class="modal-container skill-modal-paper" id="skillModalPaper">
+      <button class="modal-close" id="skillModalClose">×</button>
+      <div class="modal-content" id="skillModalContent"></div>
+    </div>
+  </div>
+
+  <!-- Progress bar -->
+  <div class="progress-bar" id="progressBar">
+    <div class="progress-track">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+    <span class="page-indicator" id="pageIndicator">1/6</span>
+  </div>
+
+  <script src="js/main.js?v=20260814-langfix3"></script>
+  <script>
+    // Keep the language control usable even if a later portfolio feature fails
+    // to initialise. When main.js is available, it owns the full application
+    // state; otherwise this fallback still updates all static bilingual copy.
+    (() => {
+      const toggle = document.getElementById('langToggle');
+      if (!toggle) return;
+
+      const fallbackSwitch = () => {
+        const target = document.documentElement.lang === 'en' ? 'zh' : 'en';
+        document.documentElement.lang = target === 'zh' ? 'zh-CN' : 'en';
+        document.querySelectorAll('[data-zh][data-en]').forEach((el) => {
+          const copy = el.dataset[target];
+          if (copy) el.textContent = copy;
+        });
+        const hint = document.getElementById('langHint');
+        const switchLabel = document.getElementById('langSwitch');
+        if (hint) hint.textContent = target === 'zh' ? 'How about in English?' : '切换中文？';
+        if (switchLabel) switchLabel.textContent = target === 'zh' ? 'EN' : 'ZH';
+        document.querySelectorAll('.edu-tag-hover').forEach((el) => {
+          el.dataset.tip = target === 'zh' ? el.dataset.tipZh : el.dataset.tipEn;
+        });
+      };
+
+      const hasMainController = typeof window.switchPortfolioLanguage === 'function';
+      const switchLanguage = () => {
+        if (hasMainController) {
+          window.switchPortfolioLanguage();
+        } else {
+          fallbackSwitch();
+        }
+      };
+
+      toggle.addEventListener('click', switchLanguage);
+      toggle.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          switchLanguage();
+        }
+      });
+
+      // If the main controller is unavailable, preserve the confirmed Home →
+      // About folder-drop transition instead of leaving the page stranded on
+      // Home after a language switch.
+      if (!hasMainController) {
+        let aboutShown = false;
+        const showAboutFallback = () => {
+          if (aboutShown) return;
+          aboutShown = true;
+          const overlay = document.getElementById('transitionOverlay');
+          const folder = document.getElementById('folderDrop');
+          const home = document.getElementById('sectionHome');
+          const wrapper = document.getElementById('siteWrapper');
+          const aboutText = document.getElementById('aboutTextArea');
+          if (!overlay || !folder || !home || !wrapper) return;
+          overlay.classList.add('active');
+          folder.offsetHeight;
+          folder.classList.add('dropping');
+          setTimeout(() => {
+            folder.classList.add('fading');
+            home.classList.add('home-fading');
+            setTimeout(() => {
+              overlay.classList.remove('active');
+              folder.classList.remove('dropping', 'fading');
+              wrapper.classList.add('no-page-slide');
+              wrapper.style.transform = 'translateX(-100vw)';
+              wrapper.offsetHeight;
+              wrapper.classList.remove('no-page-slide');
+              home.classList.remove('home-fading');
+              if (aboutText) aboutText.classList.add('visible');
+            }, 500);
+          }, 1350);
+        };
+        const trigger = document.getElementById('aboutTrigger');
+        if (trigger) trigger.addEventListener('click', showAboutFallback);
+        document.addEventListener('wheel', (event) => {
+          if (event.deltaY > 24) showAboutFallback();
+        }, { passive: true });
+      }
+    })();
+  </script>
+</body>
+</html>
