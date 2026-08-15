@@ -296,5 +296,546 @@
       homeSection.classList.add('home-fading');
 
       // Phase 3: once Home and the folder have faded together, reveal About
-      // instantly so nã|¶‰ËkºwµçAäˆøñÀù5…¹…•ÁÉ½‘ÕĞÍ•±•Ñ¥½¸°½¹Ñ•¹Ğ°ÑÉ…™™¥Œ…ÅÕ¥Í¥Ñ¥½¸…¹½¹Ù•ÉÍ¥½¸…É½ÍÌa¥…¹åÔ…¹I‰…Í•½¸¥¹Í¥¡Ğ¥¹Ñ¼Ñ¡”,µÁ½Àµ…É­•Ğ¸ğ½Àøñ ĞùQÉ…™™¥Œğ½ ĞøñÀùA±…¹¹•ÁÉ½‘ÕĞµ±•½¹Ñ•¹Ğ…É½Õ¹ÕÍ•È¥¹Ñ•É•ÍÑÌÑ¼¥µÁÉ½Ù”½É…¹¥Œ‘¥Í½Ù•Éä…¹±¥­Ì¸ğ½Àøñ Ğù½¹Ñ•¹Ğğ½ ĞøñÀù¹…±åÍ•¡¥ µÁ•É™½Éµ¥¹œÁ½ÍÑÌ…¹¥Ñ•É…Ñ•Ñ¡”½¹Ñ•¹ĞÍÑÉ…Ñ•ä…É½Õ¹•¹…•µ•¹ĞÁ…ÑÑ•É¹Ì¸ğ½Àøñ Ğù…Ñ„ğ½ ĞøñÀù	Õ¥±Ğ…¸½Á•É…Ñ¥¹œ‘…Í¡‰½…É™½È•áÁ½ÍÕÉ”°…‘µÑ¼µ…ÉĞ°5X…¹…¹•±±…Ñ¥½¸É…Ñ”°Ñ¡•¸…ÁÁ±¥•Í•µ•¹Ñ•ÁÉ½µ½Ñ¥½¹Ì…¹Á±…Ñ™½É´…µÁ…¥¹Ì¸ğ½Àøğ½‘¥Øù€ì(€€€€€½Á•¹M­¥±±5½‘…°¡ÍÑ…Ñ”¹±…¹œôôôé œıé é•¸¤ì(€€€€€ô(€€€ô•±Í”ì(€€€€€½¹ÍĞ½Ù•ÉÌõ•Í…Á•½Ù•ÉÌ¹µ…À¡àôù€ñ™¥ÕÉ”±…ÍÌô‰™¥±´µ•±°ˆøñÍÁ…¸±…ÍÌô‰™¥±´µÁ•É˜ˆøğ½ÍÁ…¸øñ¥µœÍÉŒô‰…ÍÍ•ÑÌ½•Í…Á”µ½Ù•ÉÌ¼‘íáôˆ…±Ğô‰Í…Á”Ñ¼½Ù•ÈˆøñÍÁ…¸±…ÍÌô‰™¥±´µÁ•É˜ˆøğ½ÍÁ…¸øğ½™¥ÕÉ”ù€¤¹©½¥¸ œœ¤ì(€€€€€½¹ÍĞ¥¹ÑÉ¼õÍÑ…Ñ”¹±…¹œôôôé œüŸ’â«’êë–ú»’ş‡–³’ò_–>ß¢şC¢B—¾ò3–"’ê¯š^—–âãRšÒï’â;š^¢†3šF–öÇ¾òo–Ç–>G–â€àƒ¾š:£šZ¾ò3¦k¢şšr/–>/–r#–~–òWšÖ’â;–ú»–6k¢S–*£¢şo¢†3’òƒšJ·œèA•ÉÍ½¹…°]•¡…ĞÁ¡½Ñ½É…Á¡ä…½Õ¹ĞÍ¡…É¥¹œ‘…¥±ä±¥™”…¹ÑÉ…Ù•°ì€àÁ½ÍÑÌ‘¥ÍÑÉ¥‰ÕÑ•Ñ¡É½Õ ÁÉ¥Ù…Ñ”Í½¥…°Í¡…É¥¹œ…¹]•¥‰¼¸œì(€€€€€½¹ÍĞ¡¥¹ĞõÍÑ…Ñ”¹±…¹œôôôé œüŸ
-ç–ïš2'¦J»š"[š.[–*£¢Û–6ßšÖ?¢ œèUÍ”Ñ¡”‰ÕÑÑ½¹Ì½È‘É…œÑ¡”™¥±µÍÑÉ¥Àœì(€€€€€½¹ÍĞ½¹ÑÉ½±ÌõÍÑ…Ñ”¹±…¹œôôôé œ(€€€€€€€€ü€œñ‰ÕÑÑ½¸±…ÍÌô‰™¥±´µ½¹ÑÉ½°ˆÑåÁ”ô‰‰ÕÑÑ½¸ˆ‘…Ñ„µ™¥±´µ‘¥É•Ñ¥½¸ô‰ÁÉ•Øˆ…É¥„µ±…‰•°ô‹’â+’â–ò€ˆûŠäğ½‰ÕÑÑ½¸øñÀ±…ÍÌô‰™¥±´µÍİ¥Á”µ¡¥¹Ğˆøœ­¡¥¹Ğ¬œğ½Àøñ‰ÕÑÑ½¸±…ÍÌô‰™¥±´µ½¹ÑÉ½°ˆÑåÁ”ô‰‰ÕÑÑ½¸ˆ‘…Ñ„µ™¥±´µ‘¥É•Ñ¥½¸ô‰¹•áĞˆ…É¥„µ±…‰•°ô‹’â/’â–ò€ˆûŠèğ½‰ÕÑÑ½¸øœ(€€€€€€€€è€œñ‰ÕÑÑ½¸±…ÍÌô‰™¥±´µ½¹ÑÉ½°ˆÑåÁ”ô‰‰ÕÑÑ½¸ˆ‘…Ñ„µ™¥±´µ‘¥É•Ñ¥½¸ô‰ÁÉ•Øˆ…É¥„µ±…‰•°ô‰AÉ•Ù¥½ÕÌ½Ù•ÈˆûŠäğ½‰ÕÑÑ½¸øñÀ±…ÍÌô‰™¥±´µÍİ¥Á”µ¡¥¹Ğˆøœ­¡¥¹Ğ¬œğ½Àøñ‰ÕÑÑ½¸±…ÍÌô‰™¥±´µ½¹ÑÉ½°ˆÑåÁ”ô‰‰ÕÑÑ½¸ˆ‘…Ñ„µ™¥±´µ‘¥É•Ñ¥½¸ô‰¹•áĞˆ…É¥„µ±…‰•°ô‰9•áĞ½Ù•ÈˆûŠèğ½‰ÕÑÑ½¸øœì(€€€€€½Á•¹M­¥±±5½‘…°¡€ñ‘¥Ø±…ÍÌô‰•Í…Á”µµ½‘…°µ¡•…‘¥¹œˆøñ¥µœÍÉŒô‰…ÍÍ•ÑÌ½•Í…Á”µ±½¼¹Á¹œˆ…±Ğôˆˆøñ ÌùÍ…Á”Ñ¼¸¸¸ğ½ Ìøğ½‘¥Øøñ‘¥Ø±…ÍÌô‰ÁÉ½©•Ğµ½ÁäˆøñÀø‘í¥¹ÑÉ½ôğ½Àøğ½‘¥Øøñ‘¥Ø±…ÍÌô‰ÁÉ½©•Ğµ™¥±µÍÑÉ¥Àˆø‘í½Ù•ÉÍôğ½‘¥Øøñ‘¥Ø±…ÍÌô‰™¥±´µ½¹ÑÉ½±Ìˆø‘í½¹ÑÉ½±Íôğ½‘¥Øù€°€™¥±´œ¤ì(€€€ô(€ô¤¤ì((€¥˜¡Í­¥±±5½‘…±±½Í”¥Í­¥±±5½‘…±±½Í”¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ±¥¬œ±±½Í•M­¥±±5½‘…°¤ì(€¥˜¡Í­¥±±5½‘…°¥Í­¥±±5½‘…°¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ±¥¬œ±”ôùí¥˜¡”¹Ñ…É•ĞôôõÍ­¥±±5½‘…°¥±½Í•M­¥±±5½‘…° ¤íô¤ì((€™Õ¹Ñ¥½¸¥¹¥ÑA¡½Ñ½…±±•Éä ¤ì(€€€¥˜€ …Á¡½Ñ½É¥¤É•ÑÕÉ¸ì(€€€€¼¼Q¡”…±±•Éä‰•±½¹Ì½¹±äÑ¼M­¥±±Ì€˜!½‰‰¥•ÌÍ•¹”Ñ¡É•”°…™Ñ•ÈÑ¡”(€€€€¼¼•¹Ù•±½Á”½Á•¹Ì¸%ÑÌ€ÔÉ½İÌ™½±±½ÜÑ¡”…ÁÁÉ½Ù•ØØ½µÁ½Í¥Ñ¥½¸¸(€€€½¹ÍĞÉ½İÌ€ôl(€€€€€l(€€€€€€€lÁ¡½Ñ¼€ Ì¤¹)Aœ°€İ¥‘”œ°€œ´À¸Ù‘•œt°lÁ¡½Ñ¼€ Ä¤¹)Aœ°€İ¥‘”œ°€œÀ¸ĞÕ‘•œt°(€€€€€€€lÁ¡½Ñ¼€ ÄÀ¤¹©Áœœ°€İ¥‘”œ°€œ´À¸ÈÕ‘•œt°lÁ¡½Ñ¼€ Ğ¤¹)Aœ°€Á½ÉÑÉ…¥Ğœ°€œÀ¸Õ‘•œt(€€€€€t°(€€€€€l(€€€€€€€lÁ¡½Ñ¼€ ÄÄ¤¹©Áœœ°€İ¥‘”œ°€œÀ¸ÌÕ‘•œt°lÁ¡½Ñ¼€ ÄÈ¤¹©Áœœ°€Á½ÉÑÉ…¥Ğœ°€œ´À¸ĞÕ‘•œt°(€€€€€€€lÁ¡½Ñ¼€ Ô¤¹)Aœ°€İ¥‘”œ°€œÀ¸Í‘•œt°lÁ¡½Ñ¼€ È¤¹)Aœ°€İ¥‘”œ°€œ´À¸ÈÕ‘•œt(€€€€€t°(€€€€€l(€€€€€€€lÁ¡½Ñ¼€ ÄĞ¤¹©Áœœ°€Á½ÉÑÉ…¥Ğœ°€œ´À¸Õ‘•œt°lÁ¡½Ñ¼€ ÄÔ¤¹)Aœ°€İ¥‘”œ°€œÀ¸Í‘•œt°(€€€€€€€lÁ¡½Ñ¼€ ÄÌ¤¹©Áœœ°€Á½ÉÑÉ…¥Ğœ°€œ´À¸ÌÕ‘•œt°lÁ¡½Ñ¼€ ÄÜ¤¹©Áœœ°€Á½ÉÑÉ…¥Ğœ°€œÀ¸Ğá‘•œt(€€€€€t°(€€€€€l(€€€€€€€lÁ¡½Ñ¼€ ÄØ¤¹©Áœœ°€Á½ÉÑÉ…¥Ğœ°€œÀ¸Ñ‘•œt°lÁ¡½Ñ¼€ Äà¤¹)Aœ°€Á½ÉÑÉ…¥Ğœ°€œ´À¸Í‘•œt°(€€€€€€€lÁ¡½Ñ¼€ ä¤¹©Áœœ°€İ¥‘”œ°€œÀ¸ÌÕ‘•œt°lÁ¡½Ñ¼µ™¥¹…±”¹©Áœœ°€İ¥‘”œ°€œ´À¸Ğá‘•œt(€€€€€t°(€€€€€l(€€€€€€€lÁ¡½Ñ¼€ Ø¤¹©Áœœ°€Á½ÉÑÉ…¥Ğœ°€œ´À¸Ìá‘•œt°lÁ¡½Ñ¼€ à¤¹©Áœœ°€Á½ÉÑÉ…¥Ğœ°€œÀ¸Í‘•œt°(€€€€€€€lÉ•Ñ½Õ¡|ÈÀÈÌÀĞÈÈÄÀĞäÄÀÀà¹©Áœœ°€Á½ÉÑÉ…¥Ğœ°€œ´À¸ÈÕ‘•œt°lœÄÜàØÔäàØÌÜÜäÔ¹©Áœœ°€Á½ÉÑÉ…¥Ğœ°€œÀ¸ĞÉ‘•œt°(€€€€€€€lÁ¡½Ñ¼€ Ü¤¹©Áœœ°€İ¥‘”œ°€œ´À¸ÌÉ‘•œt(€€€€€t(€€€tì(€€€½¹ÍĞ‘•½È€ôl(€€€€€€Á¥¸µ‰±Õ”¹Á¹œœ°€±¥Àµµ¥¹Ğ¹Á¹œœ°€™±½İ•ÈµÁ¥¹¬¹Á¹œœ°€‰ÕÑÑ½¸µÍ­äµ‰±Õ”¹Á¹œœ°(€€€€€€Ñ…Á”µÉ•…´¹Á¹œœ°€‰½Üµ½±¥Ù”µÍ…Ñ¥¸¹Á¹œœ°€‰ÕÑÑ½¸µå•±±½Üµ™…”¹Á¹œœ°€¡•…ÉĞµÁ¥¹¬¹Á¹œœ°(€€€€€€±¥ÀµÁ¥¹¬¹Á¹œœ°€‰ÕÑÑ½¸µ¥¹¡…´µ‰±Õ”¹Á¹œœ°€Ñ…Á”µÉ¥µÁ¥¹¬¹Á¹œœ°€ÍÑ…Èµå•±±½Ü¹Á¹œœ°(€€€€€€‰½Üµ±¥µ”µÍÑÉ¥Á”µ‰ÕÑÑ½¸¹Á¹œœ°€‰ÕÑÑ½¸µÁ…±”µÁ¥¹¬µ™½ÕÈµ¡½±”¹Á¹œœ°€%5|ÈÈÜØ¹A9œ°(€€€€€€‰ÕÑÑ½¸µÉ•µ™¥Í¡‰½İ°¹Á¹œœ°€Á¥¸µå•±±½Ü¹Á¹œœ°€‰½ÜµÉ•¹Á¹œœ°€‰ÕÑÑ½¸µÁÕÉÁ±”µÍÑ…È¹Á¹œœ°(€€€€€€%5|ÈÈÜÜ¹A9œ°€‰ÕÑÑ½¸µÉ••¸µ…Ğ¹Á¹œœ°€‰½ÜµÍ…”¹Á¹œœ°€%5|ÈÈÜà¹A9œ°(€€€€€€‰ÕÑÑ½¸µ‰É½İ¸µÁ½±­„µ‘½Ğ¹Á¹œœ°€%5|ÈÈàÀ¹A9œ°€‰ÕÑÑ½¸µ¥Ù½Éäµ™½ÕÈµ¡½±”¹Á¹œœ°(€€€€€€%5|ÈÈàÄ¹A9œ°€‰ÕÑÑ½¸µÁ¥¹¬µ™½ÕÈµ¡½±”¹Á¹œœ°€%5|ÈÈàÜ¹A9œ(€€€tì(€€€½¹ÍĞÁ±…•µ•¹ÑÌ€ôlÑ½Àµ±•™Ğœ°€Ñ½ÀµÉ¥¡Ğœ°€É¥¡Ğµµ¥œ°€‰½ÑÑ½´µÉ¥¡Ğœ°€‰½ÑÑ½´µ±•™Ğœ°€±•™Ğµµ¥tì(€€€±•ĞÁ¡½Ñ½%¹‘•à€ô€Àì(€€€±•Ğ‘•½É%¹‘•à€ô€Àì((€€€É½İÌ¹™½É…  ¡Á¡½Ñ½Ì°É½İ%¹‘•à¤€ôøì(€€€€€½¹ÍĞÉ½Ü€ô‘½Õµ•¹Ğ¹É•…Ñ•±•µ•¹Ğ ‘¥Øœ¤ì(€€€€€É½Ü¹±…ÍÍ9…µ”€ô±¥™”µÁ¡½Ñ¼µÉ½Ü±¥™”µÁ¡½Ñ¼µÉ½Ü´‘íÉ½İ%¹‘•à€¬€Åõ€ì(€€€€€Á¡½Ñ½Ì¹™½É…  ¡m™¥±”°½É¥•¹Ñ…Ñ¥½¸°Ñ¥±Ñt¤€ôøì(€€€€€€€½¹ÍĞ¥Ñ•´€ô‘½Õµ•¹Ğ¹É•…Ñ•±•µ•¹Ğ ™¥ÕÉ”œ¤ì(€€€€€€€¥Ñ•´¹±…ÍÍ9…µ”€ôÁ¡½Ñ¼µ¥Ñ•´Á¡½Ñ¼´‘í½É¥•¹Ñ…Ñ¥½¹õ€ì(€€€€€€€¥Ñ•´¹ÍÑå±”¹Í•ÑAÉ½Á•ÉÑä œ´µÑ¥±Ğœ°Ñ¥±Ğ¤ì(€€€€€€€½¹ÍĞ¥µœ€ô‘½Õµ•¹Ğ¹É•…Ñ•±•µ•¹Ğ ¥µœœ¤ì(€€€€€€€¥µœ¹ÍÉŒ€ô…ÍÍ•ÑÌ½Á¡½Ñ½Ì¼‘í™¥±•õ€ì(€€€€€€€¥µœ¹…±Ğ€ôƒRšÒïŸ&€‘íÁ¡½Ñ½%¹‘•à€¬€Åõ€ì(€€€€€€€¥µœ¹±½…‘¥¹œ€ô€±…éäœì(€€€€€€€¥Ñ•´¹…ÁÁ•¹‘¡¥±¡¥µœ¤ì((€€€€€€€€¼¼UÍ”•Ù•ÉäÍÕÁÁ±¥•ÑÉ…¹ÍÁ…É•¹Ğ•µ‰•±±¥Í¡µ•¹Ğ•á…Ñ±ä½¹”¸Q¡”™¥ÉÍĞ(€€€€€€€€¼¼•¥¡Ğ™É…µ•ÌÉ••¥Ù”„Í•½¹Íµ…±°Á¥•”°İ¡¥±”±¥ÁÌ…¹‰½İÌ…É”(€€€€€€€€¼¼‘•±¥‰•É…Ñ•±ä„±¥ÑÑ±”±…É•ÈÑ¡…¸‰ÕÑÑ½¹Ì½Ñ…Á”¸(€€€€€€€½¹ÍĞ‘•½É½Õ¹Ğ€ôÁ¡½Ñ½%¹‘•à€ğ€à€ü€È€è€Äì(€€€€€€€½¹ÍĞÕÍ•‘A±…•µ•¹ÑÌ€ô¹•ÜM•Ğ ¤ì(€€€€€€€½¹ÍĞ‘•½É½ÉA¡½Ñ¼€ô‘•½È¹Í±¥”¡‘•½É%¹‘•à°‘•½É%¹‘•à€¬‘•½É½Õ¹Ğ¤ì(€€€€€€€½¹ÍĞ¡…Í±¥À€ô‘•½É½ÉA¡½Ñ¼¹Í½µ” ¡¹…µ”¤€ôø¹…µ”¹ÍÑ…ÉÑÍ]¥Ñ  ±¥À´œ¤ñğl%5|ÈÈÜØ¹A9œ°€%5|ÈÈÜÜ¹A9œ°€%5|ÈÈàÄ¹A9œ°€%5|ÈÈàÜ¹A9t¹¥¹±Õ‘•Ì¡¹…µ”¤¤ì(€€€€€€€™½È€¡±•Ğ€ô€Àì€ğ‘•½É½Õ¹Ğì€¬ô€Ä¤ì(€€€€€€€€€½¹ÍĞ¹…µ”€ô‘•½Ém‘•½É%¹‘•à¬­tì(€€€€€€€€€½¹ÍĞ‘•½É…Ñ¥½¸€ô‘½Õµ•¹Ğ¹É•…Ñ•±•µ•¹Ğ ¥µœœ¤ì(€€€€€€€€€½¹ÍĞ¥Í±¥À€ô¹…µ”¹ÍÑ…ÉÑÍ]¥Ñ  ±¥À´œ¤ñğl%5|ÈÈÜØ¹A9œ°€%5|ÈÈÜÜ¹A9œ°€%5|ÈÈàÄ¹A9œ°€%5|ÈÈàÜ¹A9t¹¥¹±Õ‘•Ì¡¹…µ”¤ì(€€€€€€€€€½¹ÍĞ¥Í	½Ü€ô¹…µ”¹ÍÑ…ÉÑÍ]¥Ñ  ‰½Ü´œ¤ì(€€€€€€€€€½¹ÍĞ…¹‘¥‘…Ñ•Ì€ô¡…Í±¥À€˜˜€…¥Í±¥À(€€€€€€€€€€€€ül‰½ÑÑ½´µ±•™Ğœ°€‰½ÑÑ½´µÉ¥¡Ğœ°€±•™Ğµµ¥œ°€É¥¡Ğµµ¥t(€€€€€€€€€€€€èÁ±…•µ•¹ÑÌì(€€€€€€€€€½¹ÍĞÁ±…•µ•¹Ğ€ô¥Í±¥À(€€€€€€€€€€€€ü€Ñ½Àµ•¹Ñ•Èœ(€€€€€€€€€€€€è…¹‘¥‘…Ñ•Ì¹™¥¹ ¡…¹‘¥‘…Ñ”°½™™Í•Ğ¤€ôø€…ÕÍ•‘A±…•µ•¹ÑÌ¹¡…Ì¡…¹‘¥‘…Ñ”¤€˜˜½™™Í•Ğ€øô€¡Á¡½Ñ½%¹‘•à€¬€¨€È¤€”…¹‘¥‘…Ñ•Ì¹±•¹Ñ ¤(€€€€€€€€€€€€€ñğ…¹‘¥‘…Ñ•Ì¹™¥¹ ¡…¹‘¥‘…Ñ”¤€ôø€…ÕÍ•‘A±…•µ•¹ÑÌ¹¡…Ì¡…¹‘¥‘…Ñ”¤¤ì(€€€€€€€€€ÕÍ•‘A±…•µ•¹ÑÌ¹…‘¡Á±…•µ•¹Ğ¤ì(€€€€€€€€€‘•½É…Ñ¥½¸¹±…ÍÍ9…µ”€ôÁ¡½Ñ¼µ‘•½È€‘íÁ±…•µ•¹Ñô‘í¥Í±¥À€ü€œ‘•½Èµ±¥Àœ€è€œô‘í¥Í	½Ü€ü€œ‘•½Èµ‰½Üœ€è€œõ€ì(€€€€€€€€€‘•½É…Ñ¥½¸¹ÍÉŒ€ô…ÍÍ•ÑÌ½Á¡½Ñ¼µ‘•½È¼‘í¹…µ•õ€ì(€€€€€€€€€‘•½É…Ñ¥½¸¹…±Ğ€ô€œœì(€€€€€€€€€‘•½É…Ñ¥½¸¹Í•ÑÑÑÉ¥‰ÕÑ” …É¥„µ¡¥‘‘•¸œ°€ÑÉÕ”œ¤ì(€€€€€€€€€‘•½É…Ñ¥½¸¹±½…‘¥¹œ€ô€±…éäœì(€€€€€€€€€¥Ñ•´¹…ÁÁ•¹‘¡¥±¡‘•½É…Ñ¥½¸¤ì(€€€€€€€ô(€€€€€€€É½Ü¹…ÁÁ•¹‘¡¥±¡¥Ñ•´¤ì(€€€€€€€Á¡½Ñ½%¹‘•à€¬ô€Äì(€€€€€ô¤ì(€€€€€Á¡½Ñ½É¥¹…ÁÁ•¹‘¡¥±¡É½Ü¤ì(€€€ô¤ì(€ô(€¥˜¡±¥™•¹Ù•±½Á”¥±¥™•¹Ù•±½Á”¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ±¥¬œ° ¤ôùì(€€€Á¡½Ñ½É¥¹±…ÍÍ1¥ÍĞ¹Ñ½±” ½Á•¸œ¤ì(€€€±¥™•¹Ù•±½Á”¹±…ÍÍ1¥ÍĞ¹Ñ½±” ½Á•¸œ¤ì(€ô¤ì((€€¼¼€ôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôô(€€¼¼1	0AI%9QH(€€¼¼€ôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôô(€™Õ¹Ñ¥½¸ÁÉ¥¹Ñ1…‰•° ¤ì(€€€¥˜€¡ÍÑ…Ñ”¹±…‰•±AÉ¥¹Ñ•¤É•ÑÕÉ¸ì(€€€ÍÑ…Ñ”¹±…‰•±AÉ¥¹Ñ•€ôÑÉÕ”ì(€€€±…‰•±AÉ¥¹Ñ•È¹±…ÍÍ1¥ÍĞ¹…‘ ÁÉ¥¹Ñ•œ¤ì((€€€½¹ÍĞ±¥¹•Ì€ô±…‰•±=ÕÑÁÕĞ¹ÅÕ•ÉåM•±•Ñ½É±° œ¹±…‰•°µ±¥¹”œ¤ì(€€€±¥¹•Ì¹™½É…  ¡±¥¹”°¤¤€ôøì(€€€€€Í•ÑQ¥µ•½ÕĞ  ¤€ôøì(€€€€€€€±¥¹”¹±…ÍÍ1¥ÍĞ¹…‘ Ù¥Í¥‰±”œ¤ì(€€€€€ô°¤€¨€ÔÀÀ¤ì(€€€ô¤ì(€ô((€¥˜€¡±…‰•±AÉ¥¹Ñ•È¤ì(€€€±…‰•±AÉ¥¹Ñ•È¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ±¥¬œ°ÁÉ¥¹Ñ1…‰•°¤ì(€ô((€…Íå¹Œ™Õ¹Ñ¥½¸½Áå½¹Ñ…Ğ¡Ù…±Õ”°µ•ÍÍ…”¤ì(€€€ÑÉäì(€€€€€…İ…¥Ğ¹…Ù¥…Ñ½È¹±¥Á‰½…É¹İÉ¥Ñ•Q•áĞ¡Ù…±Õ”¤ì(€€€ô…Ñ €¡•ÉÉ½È¤ì(€€€€€½¹ÍĞÑ•µÀõ‘½Õµ•¹Ğ¹É•…Ñ•±•µ•¹Ğ Ñ•áÑ…É•„œ¤ì(€€€€€Ñ•µÀ¹Ù…±Õ”õÙ…±Õ”ì(€€€€€Ñ•µÀ¹Í•ÑÑÑÉ¥‰ÕÑ” É•…‘½¹±äœ°œœ¤ì(€€€€€Ñ•µÀ¹ÍÑå±”¹Á½Í¥Ñ¥½¸ô™¥á•œì(€€€€€Ñ•µÀ¹ÍÑå±”¹½Á…¥ÑäôœÀœì(€€€€€‘½Õµ•¹Ğ¹‰½‘ä¹…ÁÁ•¹‘¡¥±¡Ñ•µÀ¤ì(€€€€€Ñ•µÀ¹Í•±•Ğ ¤ì(€€€€€‘½Õµ•¹Ğ¹•á•½µµ…¹ ½Áäœ¤ì(€€€€€Ñ•µÀ¹É•µ½Ù” ¤ì(€€€ô(€€€¥˜€ …½ÁåQ½…ÍĞ¤É•ÑÕÉ¸ì(€€€½ÁåQ½…ÍĞ¹Ñ•áÑ½¹Ñ•¹Ğõµ•ÍÍ…”ì(€€€½ÁåQ½…ÍĞ¹±…ÍÍ1¥ÍĞ¹É•µ½Ù” Í¡½Üœ¤ì(€€€½ÁåQ½…ÍĞ¹½™™Í•Ñ!•¥¡Ğì(€€€½ÁåQ½…ÍĞ¹±…ÍÍ1¥ÍĞ¹…‘ Í¡½Üœ¤ì(€€€±•…ÉQ¥µ•½ÕĞ¡½Áå½¹Ñ…Ğ¹Ñ½…ÍÑQ¥µ•È¤ì(€€€½Áå½¹Ñ…Ğ¹Ñ½…ÍÑQ¥µ•ÈõÍ•ÑQ¥µ•½ÕĞ  ¤ôù½ÁåQ½…ÍĞ¹±…ÍÍ1¥ÍĞ¹É•µ½Ù” Í¡½Üœ¤°ÄäÀÀ¤ì(€ô(€€ œ¹½¹Ñ…ĞµÍÑ¥­•Èœ¤¹™½É… ¡‰Ñ¸ôù‰Ñ¸¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ±¥¬œ° ¤ôùì(€€€½¹ÍĞµ•ÍÍ…”õÍÑ…Ñ”¹±…¹œôôôé œı‰Ñ¸¹‘…Ñ…Í•Ğ¹µ•ÍÍ…•i é‰Ñ¸¹‘…Ñ…Í•Ğ¹µ•ÍÍ…•¸ì(€€€½Áå½¹Ñ…Ğ¡‰Ñ¸¹‘…Ñ…Í•Ğ¹½Áä±µ•ÍÍ…”¤ì(€ô¤¤ì(€€¼¼ÕÑ¼µÁÉ¥¹Ğ½¸™¥ÉÍĞÙ¥Í¥ĞÑ¼½¹Ñ…Ğ(€½¹ÍĞ½¹Ñ…Ñ=‰Í•ÉÙ•È€ô¹•Ü%¹Ñ•ÉÍ•Ñ¥½¹=‰Í•ÉÙ•È ¡•¹ÑÉ¥•Ì¤€ôøì(€€€•¹ÑÉ¥•Ì¹™½É…  ¡•¹ÑÉä¤€ôøì(€€€€€¥˜€¡•¹ÑÉä¹¥Í%¹Ñ•ÉÍ•Ñ¥¹œ€˜˜€…ÍÑ…Ñ”¹±…‰•±AÉ¥¹Ñ•¤ì(€€€€€€€Í•ÑQ¥µ•½ÕĞ¡ÁÉ¥¹Ñ1…‰•°°€ÄÔÀÀ¤ì(€€€€€ô(€€€ô¤ì(€ô°ìÑ¡É•Í¡½±è€À¸Ôô¤ì((€½¹ÍĞ½¹Ñ…ÑM•Ñ¥½¸€ô€ œÍ•Ñ¥½¹½¹Ñ…Ğœ¤ì(€¥˜€¡½¹Ñ…ÑM•Ñ¥½¸¤ì(€€€½¹Ñ…Ñ=‰Í•ÉÙ•È¹½‰Í•ÉÙ”¡½¹Ñ…ÑM•Ñ¥½¸¤ì(€ô((€€¼¼€ôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôô(€€¼¼A%a09Y%Q%=8(€€¼¼€ôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôô(€™Õ¹Ñ¥½¸Ñ½±•9…Ø ¤ì(€€€ÍÑ…Ñ”¹¹…Ù=Á•¸€ô€…ÍÑ…Ñ”¹¹…Ù=Á•¸ì(€€€¥˜¡Á¥á•±9…Ø¥Á¥á•±9…Ø¹±…ÍÍ1¥ÍĞ¹Ñ½±” ¹…Øµ½Á•¸œ±ÍÑ…Ñ”¹¹…Ù=Á•¸¤ì(€€€¥˜€¡ÍÑ…Ñ”¹¹…Ù=Á•¸¤ì(€€€€€¹…Ù5•¹Ô¹±…ÍÍ1¥ÍĞ¹…‘ ½Á•¸œ¤ì(€€€ô•±Í”ì(€€€€€¹…Ù5•¹Ô¹±…ÍÍ1¥ÍĞ¹É•µ½Ù” ½Á•¸œ¤ì(€€€ô(€ô((€¥˜€¡Á¥á•±Ù…Ñ…È¤ì(€€€Á¥á•±Ù…Ñ…È¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ±¥¬œ°€¡”¤€ôøì(€€€€€”¹ÍÑ½ÁAÉ½Á……Ñ¥½¸ ¤ì(€€€€€Ñ½±•9…Ø ¤ì(€€€ô¤ì(€ô((€€¼¼9…Ø±¥¹¬±¥­Ì(€€ œ¹¹…Øµ±¥¹¬œ¤¹™½É…  ¡±¥¹¬¤€ôøì(€€€±¥¹¬¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ±¥¬œ°€¡”¤€ôøì(€€€€€”¹ÁÉ•Ù•¹Ñ•™…Õ±Ğ ¤ì(€€€€€½¹ÍĞ¥¹‘•à€ôÁ…ÉÍ•%¹Ğ¡±¥¹¬¹‘…Ñ…Í•Ğ¹¹…Ø¤ì(€€€€€½Q½M•Ñ¥½¸¡¥¹‘•à¤ì(€€€€€€¼¼±½Í”¹…Ø(€€€€€ÍÑ…Ñ”¹¹…Ù=Á•¸€ô™…±Í”ì(€€€€€¹…Ù5•¹Ô¹±…ÍÍ1¥ÍĞ¹É•µ½Ù” ½Á•¸œ¤ì(€€€€€¥˜¡Á¥á•±9…Ø¥Á¥á•±9…Ø¹±…ÍÍ1¥ÍĞ¹É•µ½Ù” ¹…Øµ½Á•¸œ¤ì(€€€ô¤ì(€ô¤ì((€€¼¼±½Í”¹…Øİ¡•¸±¥­¥¹œ½ÕÑÍ¥‘”(€‘½Õµ•¹Ğ¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ±¥¬œ°€¡”¤€ôøì(€€€¥˜€¡ÍÑ…Ñ”¹¹…Ù=Á•¸€˜˜€…”¹Ñ…É•Ğ¹±½Í•ÍĞ œ¹Á¥á•°µ¹…Øœ¤¤ì(€€€€€ÍÑ…Ñ”¹¹…Ù=Á•¸€ô™…±Í”ì(€€€€€¹…Ù5•¹Ô¹±…ÍÍ1¥ÍĞ¹É•µ½Ù” ½Á•¸œ¤ì(€€€€€¥˜¡Á¥á•±9…Ø¥Á¥á•±9…Ø¹±…ÍÍ1¥ÍĞ¹É•µ½Ù” ¹…Øµ½Á•¸œ¤ì(€€€ô(€ô¤ì((€€¼¼€ôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôô(€€¼¼-e	=I9Y%Q%=8(€€¼¼€ôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôô(€‘½Õµ•¹Ğ¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ­•å‘½İ¸œ°€¡”¤€ôøì(€€€¥˜€¡•áÁ5½‘…°¹±…ÍÍ1¥ÍĞ¹½¹Ñ…¥¹Ì ½Á•¸œ¤ñğ€¡Í­¥±±5½‘…°€˜˜Í­¥±±5½‘…°¹±…ÍÍ1¥ÍĞ¹½¹Ñ…¥¹Ì ½Á•¸œ¤¤¤É•ÑÕÉ¸ì(€€€¥˜€¡”¹­•ä€ôôô€ÉÉ½İI¥¡Ğœñğ”¹­•ä€ôôô€ÉÉ½İ½İ¸œ¤ì(€€€€€”¹ÁÉ•Ù•¹Ñ•™…Õ±Ğ ¤ì(€€€€€½Q½M•Ñ¥½¸¡ÍÑ…Ñ”¹ÕÉÉ•¹ÑM•Ñ¥½¸€¬€Ä¤ì(€€€ô•±Í”¥˜€¡”¹­•ä€ôôô€ÉÉ½İ1•™Ğœñğ”¹­•ä€ôôô€ÉÉ½İUÀœ¤ì(€€€€€”¹ÁÉ•Ù•¹Ñ•™…Õ±Ğ ¤ì(€€€€€½Q½M•Ñ¥½¸¡ÍÑ…Ñ”¹ÕÉÉ•¹ÑM•Ñ¥½¸€´€Ä¤ì(€€€ô(€ô¤ì((€€¼¼€ôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôô(€€¼¼]!0€¼M]%A9Y%Q%=8(€€¼¼€ôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôô(€±•Ğİ¡••±Q¥µ•½ÕĞì(€±•Ğİ¡••±%¹Ñ•¹Ğ€ô€Àì(€±•Ğİ¡••±¥É•Ñ¥½¸€ô€Àì(€‘½Õµ•¹Ğ¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È İ¡••°œ°€¡”¤€ôøì(€€€¥˜€¡•áÁ5½‘…°¹±…ÍÍ1¥ÍĞ¹½¹Ñ…¥¹Ì ½Á•¸œ¤ñğ€¡Í­¥±±5½‘…°€˜˜Í­¥±±5½‘…°¹±…ÍÍ1¥ÍĞ¹½¹Ñ…¥¹Ì ½Á•¸œ¤¤¤É•ÑÕÉ¸ì(€€€¥˜€¡ÑÉ…¹Í¥Ñ¥½¹=Ù•É±…ä¹±…ÍÍ1¥ÍĞ¹½¹Ñ…¥¹Ì …Ñ¥Ù”œ¤¤É•ÑÕÉ¸ì(€€€€¼¼‘Õ…Ñ¥½¸½İ¹ÌÑ¡”İ¡••°İ¡¥±”Ñ¡”Á½¥¹Ñ•È¥Ì½Ù•È¥ÑÌÁ…Á•È¸%Ğ¹•Ù•È(€€€€¼¼¡…¹‘ÌÑ¡”Í…µ”•ÍÑÕÉ”Ñ¼Á…”¹…Ù¥…Ñ¥½¸°•Ù•¸…Ğ•¥Ñ¡•ÈÍÉ½±°•‘”¸(€€€¥˜€¡”¹Ñ…É•Ğ¹±½Í•ÍĞ œ¹•‘Ôµ½¹Ñ…¥¹•Èœ¤¤ì(€€€€€”¹ÍÑ½ÁAÉ½Á……Ñ¥½¸ ¤ì(€€€€€É•ÑÕÉ¸ì(€€€ô(€€€¥˜€¡ÍÑ…Ñ”¹ÕÉÉ•¹ÑM•Ñ¥½¸€ôôô€Ğ€˜˜”¹Ñ…É•Ğ¹±½Í•ÍĞ œ¹Í­¥±±ÌµÍÑ…”œ¤¤ì(€€€€€½¹ÍĞÍ•¹”ô¬¡Í­¥±±ÍMÑ…”¹‘…Ñ…Í•Ğ¹Í•¹•ñğÀ¤ì(€€€€€¥˜€¡5…Ñ ¹…‰Ì¡”¹‘•±Ñ…d¤€ø€Èà¤ì(€€€€€€€¥˜€¡”¹‘•±Ñ…d€ø€À€˜˜Í•¹”€ğ€È¤Í•ÑM­¥±±ÍM•¹”¡Í•¹”¬Ä¤ì(€€€€€€€•±Í”¥˜€¡”¹‘•±Ñ…d€ğ€À€˜˜Í•¹”€ø€À¤Í•ÑM­¥±±ÍM•¹”¡Í•¹”´Ä¤ì(€€€€€ô(€€€€€É•ÑÕÉ¸ì(€€€ô(€€€€¼¼¡•¬¥˜İ”É”ÍÉ½±±¥¹œ¥¹Í¥‘”…¹½Ñ¡•ÈÍÉ½±±…‰±”½¹Ñ…¥¹•È(€€€¥˜€¡”¹Ñ…É•Ğ¹±½Í•ÍĞ œ¹Í­¥±±Ìµ½¹Ñ…¥¹•Èœ¤ñğ(€€€€€€€”¹Ñ…É•Ğ¹±½Í•ÍĞ œ¹…‰½ÕĞµÑ•áĞµ…É•„œ¤ñğ(€€€€€€€”¹Ñ…É•Ğ¹±½Í•ÍĞ œ¹™¥±µÍÑÉ¥ÀµÑÉ…¬œ¤ñğ(€€€€€€€”¹Ñ…É•Ğ¹±½Í•ÍĞ œ¹±¥™”µÁ¡½Ñ¼µİ…±°œ¤¤ì(€€€€€É•ÑÕÉ¸ì(€€€ô((€€€½¹ÍĞ‘•±Ñ„€ô5…Ñ ¹…‰Ì¡”¹‘•±Ñ…d¤€øô5…Ñ ¹…‰Ì¡”¹‘•±Ñ…`¤€ü”¹‘•±Ñ…d€è”¹‘•±Ñ…`ì(€€€½¹ÍĞ‘¥É•Ñ¥½¸€ô5…Ñ ¹Í¥¸¡‘•±Ñ„¤ì(€€€¥˜€ …‘¥É•Ñ¥½¸¤É•ÑÕÉ¸ì(€€€¥˜€¡‘¥É•Ñ¥½¸€„ôôİ¡••±¥É•Ñ¥½¸¤İ¡••±%¹Ñ•¹Ğ€ô€Àì(€€€İ¡••±¥É•Ñ¥½¸€ô‘¥É•Ñ¥½¸ì(€€€İ¡••±%¹Ñ•¹Ğ€¬ô5…Ñ ¹µ¥¸¡5…Ñ ¹…‰Ì¡‘•±Ñ„¤°€ÜÀ¤ì(€€€±•…ÉQ¥µ•½ÕĞ¡İ¡••±Q¥µ•½ÕĞ¤ì(€€€İ¡••±Q¥µ•½ÕĞ€ôÍ•ÑQ¥µ•½ÕĞ  ¤€ôøìİ¡••±%¹Ñ•¹Ğ€ô€Àìİ¡••±¥É•Ñ¥½¸€ô€Àìô°€ÈØÀ¤ì(€€€¥˜€¡İ¡••±%¹Ñ•¹Ğ€ğ€ÄÔÀñğÍÑ…Ñ”¹Á…•Mİ¥Ñ¡¥¹œ¤É•ÑÕÉ¸ì(€€€İ¡••±%¹Ñ•¹Ğ€ô€Àì((€€€¥˜€¡ÍÑ…Ñ”¹ÕÉÉ•¹ÑM•Ñ¥½¸€ôôô€À€˜˜‘¥É•Ñ¥½¸€ø€À¤ì(€€€€€Í¡½İ‰½ÕĞ ¤ì(€€€ô•±Í”¥˜€¡‘¥É•Ñ¥½¸€ø€À¤ì(€€€€€½Q½M•Ñ¥½¸¡ÍÑ…Ñ”¹ÕÉÉ•¹ÑM•Ñ¥½¸€¬€Ä¤ì(€€€ô•±Í”ì(€€€€€½Q½M•Ñ¥½¸¡ÍÑ…Ñ”¹ÕÉÉ•¹ÑM•Ñ¥½¸€´€Ä¤ì(€€€ô(€ô°ìÁ…ÍÍ¥Ù”èÑÉÕ”ô¤ì((€€¼¼I•¹‘•È•‘Õ…Ñ¥½¸…İ…É‘•Ñ…¥±Ì…‰½Ù”Ñ¡”±¥ÁÁ•½ÍÉ½±±…‰±”½¹Ñ•¹Ğ…É•„¸(€™Õ¹Ñ¥½¸Í¡½İ‘ÕQ¥À¡•°¤ì(€€€¥˜€ …•‘Õ±½…Ñ¥¹Q¥À¤É•ÑÕÉ¸ì(€€€•‘Õ±½…Ñ¥¹Q¥À¹Ñ•áÑ½¹Ñ•¹Ğ€ôÍÑ…Ñ”¹±…¹œ€ôôô€é œ€ü•°¹‘…Ñ…Í•Ğ¹Ñ¥Ái €è•°¹‘…Ñ…Í•Ğ¹Ñ¥Á¸ì(€€€½¹ÍĞÉ•Ğ€ô•°¹•Ñ	½Õ¹‘¥¹±¥•¹ÑI•Ğ ¤ì(€€€•‘Õ±½…Ñ¥¹Q¥À¹ÍÑå±”¹±•™Ğ€ô€‘í5…Ñ ¹µ…à ÄäÀ°5…Ñ ¹µ¥¸¡İ¥¹‘½Ü¹¥¹¹•É]¥‘Ñ €´€ÄäÀ°É•Ğ¹±•™Ğ€¬É•Ğ¹İ¥‘Ñ €¼€È¤¥õÁá€ì(€€€•‘Õ±½…Ñ¥¹Q¥À¹ÍÑå±”¹Ñ½À€ô€‘í5…Ñ ¹µ…à äÀ°É•Ğ¹Ñ½À¥õÁá€ì(€€€•‘Õ±½…Ñ¥¹Q¥À¹±…ÍÍ1¥ÍĞ¹…‘ Ù¥Í¥‰±”œ¤ì(€ô(€™Õ¹Ñ¥½¸¡¥‘•‘ÕQ¥À ¤ì¥˜€¡•‘Õ±½…Ñ¥¹Q¥À¤•‘Õ±½…Ñ¥¹Q¥À¹±…ÍÍ1¥ÍĞ¹É•µ½Ù” Ù¥Í¥‰±”œ¤ìô(€€ œ¹•‘ÔµÑ…œµ¡½Ù•Èœ¤¹™½É…  ¡•°¤€ôøì(€€€•°¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È µ½ÕÍ••¹Ñ•Èœ°€ ¤€ôøÍ¡½İ‘ÕQ¥À¡•°¤¤ì(€€€•°¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È µ½ÕÍ•±•…Ù”œ°¡¥‘•‘ÕQ¥À¤ì(€€€•°¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ™½ÕÌœ°€ ¤€ôøÍ¡½İ‘ÕQ¥À¡•°¤¤ì(€€€•°¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ‰±ÕÈœ°¡¥‘•‘ÕQ¥À¤ì(€ô¤ì((€€¼¼Q½Õ Íİ¥Á”(€±•ĞÑ½Õ¡MÑ…ÉÑ`€ô€Àì(€±•ĞÑ½Õ¡MÑ…ÉÑd€ô€Àì(€‘½Õµ•¹Ğ¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È Ñ½Õ¡ÍÑ…ÉĞœ°€¡”¤€ôøì(€€€¥˜€¡•áÁ5½‘…°¹±…ÍÍ1¥ÍĞ¹½¹Ñ…¥¹Ì ½Á•¸œ¤¤É•ÑÕÉ¸ì(€€€Ñ½Õ¡MÑ…ÉÑ`€ô”¹Ñ½Õ¡•ÍlÁt¹±¥•¹Ñ`ì(€€€Ñ½Õ¡MÑ…ÉÑd€ô”¹Ñ½Õ¡•ÍlÁt¹±¥•¹Ñdì(€ô°ìÁ…ÍÍ¥Ù”èÑÉÕ”ô¤ì((€‘½Õµ•¹Ğ¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È Ñ½Õ¡•¹œ°€¡”¤€ôøì(€€€¥˜€¡•áÁ5½‘…°¹±…ÍÍ1¥ÍĞ¹½¹Ñ…¥¹Ì ½Á•¸œ¤¤É•ÑÕÉ¸ì(€€€½¹ÍĞ‘à€ô”¹¡…¹•‘Q½Õ¡•ÍlÁt¹±¥•¹Ñ`€´Ñ½Õ¡MÑ…ÉÑ`ì(€€€½¹ÍĞ‘ä€ô”¹¡…¹•‘Q½Õ¡•ÍlÁt¹±¥•¹Ñd€´Ñ½Õ¡MÑ…ÉÑdì(€€€¥˜€¡5…Ñ ¹…‰Ì¡‘à¤€ø5…Ñ ¹…‰Ì¡‘ä¤€˜˜5…Ñ ¹…‰Ì¡‘à¤€ø€ÔÀ¤ì(€€€€€¥˜€¡‘à€ğ€´ÔÀ¤½Q½M•Ñ¥½¸¡ÍÑ…Ñ”¹ÕÉÉ•¹ÑM•Ñ¥½¸€¬€Ä¤ì(€€€€€•±Í”¥˜€¡‘à€ø€ÔÀ¤½Q½M•Ñ¥½¸¡ÍÑ…Ñ”¹ÕÉÉ•¹ÑM•Ñ¥½¸€´€Ä¤ì(€€€ô(€ô¤ì((€€¼¼€ôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôô(€€¼¼IM%i!91H(€€¼¼€ôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôô(€İ¥¹‘½Ü¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È É•Í¥é”œ°€ ¤€ôøì(€€€ÍÑ…Ñ”¹¥Í•Í­Ñ½À€ôİ¥¹‘½Ü¹¥¹¹•É]¥‘Ñ €ø€ÜØàì(€€€¥˜€ …ÍÑ…Ñ”¹¥Í•Í­Ñ½À¤ì(€€€€€İÉ…ÁÁ•È¹ÍÑå±”¹ÑÉ…¹Í™½É´€ô€¹½¹”œì(€€€ô•±Í”ì(€€€€€İÉ…ÁÁ•È¹ÍÑå±”¹ÑÉ…¹Í™½É´€ôÑÉ…¹Í±…Ñ•` ´‘íÍÑ…Ñ”¹ÕÉÉ•¹ÑM•Ñ¥½¸€¨€ÄÀÁõÙÜ¥€ì(€€€ô(€ô¤ì((€€¼¼€ôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôô(€€¼¼%9%P(€€¼¼€ôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôô(€™Õ¹Ñ¥½¸¥¹¥Ğ ¤ì(€€€¥¹¥ÑA¡½Ñ½…±±•Éä ¤ì(€€€Í•ÑM­¥±±ÍM•¹” À¤ì(€€€ÕÁ‘…Ñ•U$ ¤ì((€€€€¼¼M¡½Ü…‰½ÕĞÑ•áĞ…É•„¥µµ•‘¥…Ñ•±ä¥˜…±É•…‘ä½¸…‰½ÕĞÍ•Ñ¥½¸(€€€¥˜€¡ÍÑ…Ñ”¹ÕÉÉ•¹ÑM•Ñ¥½¸€ôôô€Ä¤ì(€€€€€¥˜€¡…‰½ÕÑQ•áÑÉ•„¤…‰½ÕÑQ•áÑÉ•„¹±…ÍÍ1¥ÍĞ¹…‘ Ù¥Í¥‰±”œ¤ì(€€€€€ÍÑ…Ñ”¹…‰½ÕÑM¡½İ¸€ôÑÉÕ”ì(€€€ô(€ô((€€¼¼IÕ¸½¸=4É•…‘ä(€¥˜€¡‘½Õµ•¹Ğ¹É•…‘åMÑ…Ñ”€ôôô€±½…‘¥¹œœ¤ì(€€€‘½Õµ•¹Ğ¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È =5½¹Ñ•¹Ñ1½…‘•œ°¥¹¥Ğ¤ì(€ô•±Í”ì(€€€¥¹¥Ğ ¤ì(€ô()ô¤ ¤ì(
+      // instantly so no horizontal page motion is visible.
+      setTimeout(() => {
+        transitionOverlay.classList.remove('active');
+        folderDrop.classList.remove('dropping', 'fading');
+        wrapper.classList.add('no-page-slide');
+        state.currentSection = 1;
+        wrapper.style.transform = 'translateX(-100vw)';
+        updateUI();
+        wrapper.offsetHeight;
+        wrapper.classList.remove('no-page-slide');
+        homeSection.classList.remove('home-fading');
+        setTimeout(() => {
+          if (aboutTextArea) aboutTextArea.classList.add('visible');
+        }, 120);
+      }, 500);
+    }, 1350);
+  }
+
+  // Click on blank area (aboutTrigger)
+  if (aboutTrigger) {
+    aboutTrigger.addEventListener('click', (e) => {
+      if (state.currentSection === 0) {
+        showAbout();
+      }
+    });
+  }
+
+  // ========================================
+  // LANGUAGE TOGGLE
+  // ========================================
+  function switchLang(targetLang) {
+    state.lang = targetLang;
+    document.documentElement.lang = targetLang === 'zh' ? 'zh-CN' : 'en';
+
+    // Update all [data-zh][data-en] text elements
+    document.querySelectorAll('[data-zh][data-en]').forEach((el) => {
+      const text = el.dataset[targetLang];
+      if (text) {
+        if (el.classList.contains('about-body')) {
+          el.innerHTML = text;
+        } else {
+          el.textContent = text;
+        }
+      }
+    });
+
+    // Update lang toggle display
+    langSwitch.textContent = targetLang === 'zh' ? 'EN' : 'ZH';
+    langHint.textContent = targetLang === 'zh' ? 'How about in English?' : 'åˆ‡æ¢ä¸­æ–‡ï¼Ÿ';
+
+    // Update education tooltips. Keep both languages in separate attributes so
+    // switching repeatedly never exposes storage prefixes such as "zh:".
+    document.querySelectorAll('.edu-tag-hover').forEach((el) => {
+      el.setAttribute('data-tip', targetLang === 'zh' ? el.dataset.tipZh : el.dataset.tipEn);
+    });
+  }
+
+  function toggleLanguage() {
+    switchLang(state.lang === 'zh' ? 'en' : 'zh');
+  }
+
+  // The small inline controller in index.html owns the physical click target.
+  // Exposing this function keeps dynamic content (modals, skill panels) in
+  // sync with its internal language state.
+  window.switchPortfolioLanguage = toggleLanguage;
+
+  // ========================================
+  // EXPERIENCE STICKY NOTES â†’ MODAL
+  // ========================================
+  function openExpModal(expKey) {
+    const data = expData[expKey];
+    if (!data) return;
+
+    const lang = state.lang;
+    const title = data.title[lang];
+
+    let html = `<h3>${title}</h3>`;
+    html += `<p style="font-family:var(--font-print);font-size:0.8rem;color:var(--text-light)">${data.date}</p>`;
+
+    // Goal
+    html += `<div class="modal-section"><h4>${lang === 'zh' ? 'å·¥ä½œç›®æ ‡' : 'Goal'}</h4><p>${data.goal[lang]}</p></div>`;
+
+    // Tasks
+    data.tasks.forEach((task, i) => {
+      html += `<div class="modal-section"><h4>${task.label[lang]}</h4><p>${task.text[lang]}</p></div>`;
+    });
+
+    // Keywords
+    html += `<div class="modal-keywords">`;
+    data.keywords.forEach((kw, i) => {
+      html += `<span class="modal-kw kw-color-${kw.color}" data-kw="${kw[lang]}">${kw[lang]}</span>`;
+    });
+    html += `</div>`;
+
+    expModalContent.innerHTML = html;
+    expModalContainer.dataset.theme = expKey;
+    $$('.exp-sticky').forEach((sticky) => {
+      sticky.classList.toggle('selected', sticky.dataset.exp === expKey);
+    });
+    expModal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeExpModal() {
+    expModal.classList.remove('open');
+    $$('.exp-sticky').forEach((sticky) => sticky.classList.remove('selected'));
+    document.body.style.overflow = '';
+  }
+
+  // Sticky note click handlers
+  $$('.exp-sticky').forEach((sticky) => {
+    sticky.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const expKey = sticky.dataset.exp;
+      openExpModal(expKey);
+    });
+  });
+
+  // Modal close
+  if (expModalClose) {
+    expModalClose.addEventListener('click', closeExpModal);
+  }
+  if (expModal) {
+    expModal.addEventListener('click', (e) => {
+      if (e.target === expModal) closeExpModal();
+    });
+  }
+
+  // ESC key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && expModal.classList.contains('open')) {
+      closeExpModal();
+    }
+    if (e.key === 'Escape' && skillModal && skillModal.classList.contains('open')) {
+      closeSkillModal();
+    }
+  });
+
+  // ========================================
+  // SKILLS & HOBBIES
+  // ========================================
+  const escapeCovers = [
+    'cover-122.png', 'cover-128.png', 'cover-23.png', 'cover-7.png',
+    'cover-8.png', 'cover-915.png', 'cover-cqc.png'
+  ];
+  const skillData = {
+    operations:{zh:['æ ¸å¿ƒè¿è¥èƒ½åŠ›','ç”µå•†è¿è¥','å“ç±»è¿è¥','CRM ç­–ç•¥','ç”¨æˆ·è¿è¥','å¢é•¿ç­–ç•¥'],en:['Core Operations','E-commerce Operations','Category Operations','CRM Strategy','User Operations','Growth Strategy']},
+    marketing:{zh:['å“ç‰Œä¸è¥é”€èƒ½åŠ›','ç”¨æˆ·åˆ†å±‚','éœ€æ±‚æ´å¯Ÿ','è¥é”€å†…å®¹ç­–åˆ’','ç¤¾åª’ä¼ æ’­','ç¬”è®°ç§è‰','å¸‚åœºæ´å¯Ÿ'],en:['Brand & Marketing','User Segmentation','Customer Insight','Marketing Content Strategy','Social Media Distribution','Social Commerce Content','Market Insight']},
+    soft:{zh:['è½¯å®åŠ›','è·¨éƒ¨é—¨åä½œèƒ½åŠ›','é—®é¢˜é—­ç¯','é¡¹ç›®æ¨è¿›ä¸ç®¡ç†','æ•°æ®å¤ç›˜æ²‰æ·€','è‡ªé©±æˆé•¿'],en:['Soft Skills','Cross-functional Collaboration','End-to-end Problem Solving','Project Delivery','Data Review & Documentation','Self-directed Learning']},
+    tools:{zh:['å·¥å…·ä¸è¯­è¨€','Excelï¼ˆæ•°æ®é€è§†è¡¨ã€å‡½æ•°ï¼‰','SQL','SPSS','ChatGPT','Work Buddy','Photoshop','Canva','ç§€ç±³','CET-6ï¼ˆ500+ï¼‰'],en:['Tools & Language','Excel (Pivot Tables & Functions)','SQL','SPSS','ChatGPT','Work Buddy','Photoshop','Canva','Xiumi','CET-6 (500+)']}
+  };
+
+  function setSkillsScene(index) {
+    if (!skillsStage) return;
+    const scene=Math.max(0,Math.min(2,index));
+    skillsStage.dataset.scene=scene;
+    document.documentElement.style.setProperty('--skills-bg-y', `${scene*50}%`);
+    $$('.skills-scene').forEach((el,i)=>el.classList.toggle('active',i===scene));
+    $$('.skills-scene-nav button').forEach((el,i)=>el.classList.toggle('active',i===scene));
+  }
+  $$('.skills-scene-nav button').forEach(btn=>btn.addEventListener('click',()=>setSkillsScene(+btn.dataset.sceneTo)));
+
+  function openSkillModal(html, kind = '') {
+    skillModalContent.innerHTML=html;
+    $('#skillModalPaper').classList.toggle('film-modal', kind === 'film');
+    skillModal.classList.add('open');
+    document.body.style.overflow='hidden';
+    const filmstrip = skillModalContent.querySelector('.project-filmstrip');
+    if (filmstrip) {
+      const moveFilmstrip = (direction) => {
+        const cell = filmstrip.querySelector('.film-cell');
+        const distance = cell ? cell.getBoundingClientRect().width : filmstrip.clientWidth * .72;
+        filmstrip.scrollBy({ left: direction * distance, behavior: reducedMotion.matches ? 'auto' : 'smooth' });
+      };
+      skillModalContent.querySelector('[data-film-direction="prev"]')?.addEventListener('click', () => moveFilmstrip(-1));
+      skillModalContent.querySelector('[data-film-direction="next"]')?.addEventListener('click', () => moveFilmstrip(1));
+    }
+  }
+  function closeSkillModal(){skillModal.classList.remove('open');document.body.style.overflow='';}
+  $$('.stationery-item').forEach(btn=>btn.addEventListener('click',()=>{
+    if(btn.classList.contains('revealed')) return;
+    const rows=skillData[btn.dataset.skill][state.lang];
+    btn.querySelector('.stationery-detail').innerHTML=rows.slice(1).map(x=>`<span>${x}</span>`).join('');
+    btn.classList.add('revealed');
+  }));
+  $$('.project-entry').forEach(btn=>btn.addEventListener('click',()=>{
+    if(btn.dataset.project==='shop'){
+      const shopIcons=`<span class="shop-app-icons"><img src="assets/app-xiaohongshu.png" alt="å°çº¢ä¹¦"><img src="assets/app-xianyu.png" alt="é—²é±¼"></span>`;
+      const evidence=`<section class="shop-evidence" aria-label="çˆ†æ¬¾ç¬”è®°è¡¨ç°"><figure class="shop-post-frame"><img src="assets/shop-hit-post.png" alt="å°çº¢ä¹¦çˆ†æ¬¾ç¬”è®°æˆªå›¾ï¼š2.3ä¸‡+é˜…è¯»ä¸1496æ¬¡ç‚¹èµæ”¶è—"></figure><div class="shop-evidence-copy"><p class="shop-proof-kicker">å†…å®¹å¸¦åŠ¨æˆäº¤</p><h4>çˆ†æ¬¾ç¬”è®°è¡¨ç°</h4><div class="shop-proof-metrics"><b>2.3ä¸‡+<small>é˜…è¯»</small></b><b>1500+<small>ç‚¹èµæ”¶è—</small></b><b>50+<small>è®¢å•è½¬åŒ–</small></b><b>è¿‘ Â¥5,000<small>GMV</small></b></div><p>å›´ç»•è‰ºäººçƒ­ç‚¹ã€åœˆå±‚è¯é¢˜ä¸å•†å“å–ç‚¹ç­–åˆ’å†…å®¹ï¼Œå®ç°ä»è‡ªç„¶æ›å…‰ã€äº’åŠ¨æ²‰æ·€åˆ°æˆäº¤è½¬åŒ–çš„é—­ç¯ã€‚</p></div></section>`;
+      const zh=`<div class="shop-modal-heading"><h3>My Shop Â· ç”µå•†åº—é“ºè¿è¥</h3>${shopIcons}</div><div class="metric-row"><b>300+ SKU</b><b>1000+ è®¢å•</b><b>GMV è¿‘ Â¥100,000</b></div><div class="project-copy shop-copy"><p class="shop-intro">ç‹¬ç«‹è¿è¥é—²é±¼ä¸å°çº¢ä¹¦åº—é“ºï¼Œèšç„¦ K-POP ä¸“è¾‘ã€å°å¡ã€å§å”§ç­‰æ˜æ˜Ÿå‘¨è¾¹ï¼Œå®Œæˆä»é€‰å“é‡‡è´­ã€å†…å®¹è¥é”€ã€æµé‡è·å–åˆ°è®¢å•å±¥çº¦ä¸æ•°æ®å¤ç›˜çš„å…¨æµç¨‹è¿è¥ã€‚</p><div class="shop-module-grid"><section><h4>01ï½œé€‰å“ä¸ä¾›åº”é“¾</h4><p>åŸºäºâ€œçƒ­åº¦è¶‹åŠ¿ Ã— å¸‚åœºæµé€šåº¦ Ã— ç”¨æˆ·éœ€æ±‚â€è§„åˆ’é€‰å“ï¼Œé‡ç‚¹å¸ƒå±€è‰ºäººå›å½’ã€å·¡æ¼”ç­‰é«˜éœ€æ±‚èŠ‚ç‚¹ï¼›ç»“åˆåº“å­˜å‘¨è½¬æ§åˆ¶å¤‡è´§èŠ‚å¥ï¼Œé™ä½èµ„é‡‘å ç”¨é£é™©ã€‚</p></section><section><h4>02ï½œå†…å®¹ä¸æµé‡å¢é•¿</h4><p>ç´¯è®¡å‘å¸ƒ 70+ ç¯‡å†…å®¹ï¼Œå›´ç»•è‰ºäººçƒ­ç‚¹ã€åœˆå±‚è¯é¢˜ä¸å•†å“å–ç‚¹è®¾è®¡æ ‡é¢˜å’Œè§†è§‰å†…å®¹ï¼ŒæŒç»­æå‡è‡ªç„¶æœç´¢æ›å…‰ä¸ç‚¹å‡»ã€‚</p></section></div>${evidence}<div class="shop-module-grid"><section><h4>03ï½œç”¨æˆ·æ´å¯Ÿä¸è½¬åŒ–</h4><p>é€šè¿‡è®¢å•ä¸è¡Œä¸ºæ•°æ®å¤ç›˜ç”¨æˆ·ç‰¹å¾ï¼Œè¯†åˆ«å­¦ç”Ÿç¾¤ä½“ä¸ºæ ¸å¿ƒç”¨æˆ·ã€å‘¨æœ«æ´»è·ƒåº¦æ›´é«˜ï¼›æ®æ­¤è®¾è®¡å·®å¼‚åŒ–ä¿ƒé”€ï¼Œå¹¶ç»“åˆèŠ‚å‡æ—¥ä¼˜æƒ åˆ¸ä¸å¹³å°æ´»åŠ¨æå‡è½¬åŒ–æ•ˆç‡ã€‚</p></section><section><h4>04ï½œç»è¥å¤ç›˜ä¸é£é™©æ§åˆ¶</h4><p>æ­å»ºç»è¥æ•°æ®çœ‹æ¿ï¼ŒæŒç»­è¿½è¸ªæ›å…‰ã€åŠ è´­ã€GMVã€å–æ¶ˆç‡ç­‰æŒ‡æ ‡ï¼›ä½å‘¨è½¬å•†å“ä»¥ä¹°èµ ã€æ¸…ä»“åŠ é€Ÿå›æ¬¾ï¼Œé«˜å•ä»·ä½é¢‘å•†å“é‡‡ç”¨é¢„å”®æˆ–å°æ‰¹é‡å¤‡è´§ã€‚</p></section></div></div>`;
+      const en=`<div class="shop-modal-heading"><h3>My Shop Â· E-commerce Operations</h3>${shopIcons}</div><div class="metric-row"><b>300+ SKUs</b><b>1,000+ orders</b><b>GMV â‰ˆ RMB 100K</b></div><div class="project-copy shop-copy"><p class="shop-intro">Independently operated Xianyu and RED shops for K-pop albums, photo cards and fan merchandise, covering sourcing, content marketing, acquisition, fulfilment and data review end to end.</p><div class="shop-module-grid"><section><h4>01ï½œSourcing & Supply</h4><p>Planned assortments through demand, trend and market-circulation signals, with focused inventory around comebacks and tours while managing turnover and capital risk.</p></section><section><h4>02ï½œContent & Traffic Growth</h4><p>Published 70+ posts around artist moments, community topics and product value, improving organic discovery and click-through.</p></section></div><section class="shop-evidence" aria-label="Top post performance"><figure class="shop-post-frame"><img src="assets/shop-hit-post.png" alt="Top RED post screenshot"></figure><div class="shop-evidence-copy"><p class="shop-proof-kicker">CONTENT TO CONVERSION</p><h4>Top post performance</h4><div class="shop-proof-metrics"><b>23K+<small>views</small></b><b>1.5K+<small>likes & saves</small></b><b>50+<small>orders</small></b><b>â‰ˆ Â¥5K<small>GMV</small></b></div><p>Content aligned to artist topics and product value created a direct path from organic reach and engagement to conversion.</p></div></section><div class="shop-module-grid"><section><h4>03ï½œUser Insights & Conversion</h4><p>Order and behaviour reviews identified students as the core audience and weekends as higher-activity periods, informing targeted promotions and campaign participation.</p></section><section><h4>04ï½œReview & Risk Control</h4><p>Tracked exposure, add-to-cart, GMV and cancellations; used clearance for slow stock and pre-orders or small batches for high-value low-frequency products.</p></section></div></div>`;
+      openSkillModal(state.lang==='zh'?zh:en, 'shop');
+      return;
+      {
+      const icons=`<span class="shop-app-icons"><img src="assets/app-xiaohongshu.png" alt="å°çº¢ä¹¦"><img src="assets/app-xianyu.png" alt="é—²é±¼"></span>`;
+      const zh=`<div class="shop-modal-heading"><h3>My Shop Â· ç”µå•†åº—é“ºè¿è¥</h3>${icons}</div><div class="metric-row"><b>1000+ å•</b><b>GMV çº¦ 10 ä¸‡</b></div><div class="project-copy"><p>åŸºäºå¯¹ K-pop å¸‚åœºçš„ç†è§£ï¼Œè´Ÿè´£é—²é±¼ä¸å°çº¢ä¹¦åº—é“ºçš„é€‰å“ã€å†…å®¹ç­–åˆ’ã€æµé‡è·å–ä¸ç”¨æˆ·è½¬åŒ–ï¼Œå®ç°ä»å†…å®¹æ›å…‰åˆ°æˆäº¤çš„å…¨æµç¨‹è¿è¥ã€‚</p><h4>æµé‡è·å–</h4><p>å›´ç»•å•†å“å–ç‚¹ä¸ç”¨æˆ·å…´è¶£ç­–åˆ’å›¾æ–‡å†…å®¹ï¼Œæå‡è‡ªç„¶æœç´¢æ›å…‰ä¸ç‚¹å‡»ç‡ã€‚</p><h4>å†…å®¹ä¼˜åŒ–</h4><p>æŒç»­æ‹†è§£é«˜èµç¬”è®°ä¸é«˜æ›å…‰å†…å®¹ï¼Œæ€»ç»“é«˜äº’åŠ¨ç‰¹å¾å¹¶è¿­ä»£å†…å®¹ç­–ç•¥ã€‚</p><h4>æ•°æ®åˆ†æ</h4><p>æ­å»ºåº—é“ºç»è¥æ•°æ®çœ‹æ¿ï¼Œç›‘æ§æ›å…‰ã€åŠ è´­ã€GMVã€å–æ¶ˆç‡ç­‰æ ¸å¿ƒæŒ‡æ ‡ï¼›æ ¹æ®ç”¨æˆ·ç‰¹å¾åˆ¶å®šå·®å¼‚åŒ–ä¿ƒé”€ç­–ç•¥ï¼Œç»“åˆèŠ‚å‡æ—¥ä¼˜æƒ åˆ¸ä¸å¹³å°æ´»åŠ¨ææŠ¥æå‡è½¬åŒ–ã€‚</p></div>`;
+      const en=`<div class="shop-modal-heading"><h3>My Shop Â· E-commerce Operations</h3>${icons}</div><div class="metric-row"><b>1,000+ orders</b><b>GMV â‰ˆ RMB 100K</b></div><div class="project-copy"><p>Managed product selection, content, traffic acquisition and conversion across Xianyu and RED based on insight into the K-pop market.</p><h4>Traffic</h4><p>Planned product-led content around user interests to improve organic discovery and clicks.</p><h4>Content</h4><p>Analysed high-performing posts and iterated the content strategy around engagement patterns.</p><h4>Data</h4><p>Built an operating dashboard for exposure, add-to-cart, GMV and cancellation rate, then applied segmented promotions and platform campaigns.</p></div>`;
+      openSkillModal(state.lang==='zh'?zh:en);
+      }
+    } else {
+      const covers=escapeCovers.map(x=>`<figure class="film-cell"><span class="film-perf"></span><img src="assets/escape-covers/${x}" alt="Escape to cover"><span class="film-perf"></span></figure>`).join('');
+      const intro=state.lang==='zh'?'ä¸ªäººå¾®ä¿¡å…¬ä¼—å·è¿è¥ï¼Œåˆ†äº«æ—¥å¸¸ç”Ÿæ´»ä¸æ—…è¡Œæ‘„å½±ï¼›å…±å‘å¸ƒ 8 ç¯‡æ¨æ–‡ï¼Œé€šè¿‡æœ‹å‹åœˆç§åŸŸå¼•æµä¸å¾®åšè”åŠ¨è¿›è¡Œä¼ æ’­ã€‚':'Personal WeChat photography account sharing daily life and travel; 8 posts distributed through private social sharing and Weibo.';
+      const hint=state.lang==='zh'?'ç‚¹å‡»æŒ‰é’®æˆ–æ‹–åŠ¨èƒ¶å·æµè§ˆ':'Use the buttons or drag the filmstrip';
+      const controls=state.lang==='zh'
+        ? '<button class="film-control" type="button" data-film-direction="prev" aria-label="ä¸Šä¸€å¼ ">â€¹</button><p class="film-swipe-hint">'+hint+'</p><button class="film-control" type="button" data-film-direction="next" aria-label="ä¸‹ä¸€å¼ ">â€º</button>'
+        : '<button class="film-control" type="button" data-film-direction="prev" aria-label="Previous cover">â€¹</button><p class="film-swipe-hint">'+hint+'</p><button class="film-control" type="button" data-film-direction="next" aria-label="Next cover">â€º</button>';
+      openSkillModal(`<div class="escape-modal-heading"><img src="assets/escape-logo.png" alt=""><h3>Escape to...</h3></div><div class="project-copy"><p>${intro}</p></div><div class="project-filmstrip">${covers}</div><div class="film-controls">${controls}</div>`, 'film');
+    }
+  }));
+
+  if(skillModalClose)skillModalClose.addEventListener('click',closeSkillModal);
+  if(skillModal)skillModal.addEventListener('click',e=>{if(e.target===skillModal)closeSkillModal();});
+
+  function initPhotoGallery() {
+    if (!photoGrid) return;
+    // The gallery belongs only to Skills & Hobbies scene three, after the
+    // envelope opens. Its 5 rows follow the approved v6 composition.
+    const rows = [
+      [
+        ['photo (3).JPG', 'wide', '-0.6deg'], ['photo (1).JPG', 'wide', '0.45deg'],
+        ['photo (10).jpg', 'wide', '-0.25deg'], ['photo (4).JPG', 'portrait', '0.5deg']
+      ],
+      [
+        ['photo (11).jpg', 'wide', '0.35deg'], ['photo (12).jpg', 'portrait', '-0.45deg'],
+        ['photo (5).JPG', 'wide', '0.3deg'], ['photo (2).JPG', 'wide', '-0.25deg']
+      ],
+      [
+        ['photo (14).jpg', 'portrait', '-0.5deg'], ['photo (15).JPG', 'wide', '0.3deg'],
+        ['photo (13).jpg', 'portrait', '-0.35deg'], ['photo (17).jpg', 'portrait', '0.48deg']
+      ],
+      [
+        ['photo (16).jpg', 'portrait', '0.4deg'], ['photo (18).JPG', 'portrait', '-0.3deg'],
+        ['photo (9).jpg', 'wide', '0.35deg'], ['photo-finale.jpg', 'wide', '-0.48deg']
+      ],
+      [
+        ['photo (6).jpg', 'portrait', '-0.38deg'], ['photo (8).jpg', 'portrait', '0.3deg'],
+        ['retouch_2023042210491008.jpg', 'portrait', '-0.25deg'], ['1786598637795.jpg', 'portrait', '0.42deg'],
+        ['photo (7).jpg', 'wide', '-0.32deg']
+      ]
+    ];
+    const decor = [
+      'pin-blue.png', 'clip-mint.png', 'flower-pink.png', 'button-sky-blue.png',
+      'tape-cream.png', 'bow-olive-satin.png', 'button-yellow-face.png', 'heart-pink.png',
+      'clip-pink.png', 'button-gingham-blue.png', 'tape-grid-pink.png', 'star-yellow.png',
+      'bow-lime-stripe-button.png', 'button-pale-pink-four-hole.png', 'IMG_2276.PNG',
+      'button-red-fishbowl.png', 'pin-yellow.png', 'bow-red.png', 'button-purple-star.png',
+      'IMG_2277.PNG', 'button-green-cat.png', 'bow-sage.png', 'IMG_2278.PNG',
+      'button-brown-polka-dot.png', 'IMG_2280.PNG', 'button-ivory-four-hole.png',
+      'IMG_2281.PNG', 'button-pink-four-hole.png', 'IMG_2287.PNG'
+    ];
+    const placements = ['top-left', 'top-right', 'right-mid', 'bottom-right', 'bottom-left', 'left-mid'];
+    let photoIndex = 0;
+    let decorIndex = 0;
+
+    rows.forEach((photos, rowIndex) => {
+      const row = document.createElement('div');
+      row.className = `life-photo-row life-photo-row-${rowIndex + 1}`;
+      photos.forEach(([file, orientation, tilt]) => {
+        const item = document.createElement('figure');
+        item.className = `photo-item photo-${orientation}`;
+        item.style.setProperty('--tilt', tilt);
+        const img = document.createElement('img');
+        img.src = `assets/photos/${file}`;
+        img.alt = `ç”Ÿæ´»ç…§ç‰‡ ${photoIndex + 1}`;
+        img.loading = 'lazy';
+        item.appendChild(img);
+
+        // Use every supplied transparent embellishment exactly once. The first
+        // eight frames receive a second small piece, while clips and bows are
+        // deliberately a little larger than buttons/tape.
+        const decorCount = photoIndex < 8 ? 2 : 1;
+        const usedPlacements = new Set();
+        const decorForPhoto = decor.slice(decorIndex, decorIndex + decorCount);
+        const hasClip = decorForPhoto.some((name) => name.startsWith('clip-') || ['IMG_2276.PNG', 'IMG_2277.PNG', 'IMG_2281.PNG', 'IMG_2287.PNG'].includes(name));
+        for (let d = 0; d < decorCount; d += 1) {
+          const name = decor[decorIndex++];
+          const decoration = document.createElement('img');
+          const isClip = name.startsWith('clip-') || ['IMG_2276.PNG', 'IMG_2277.PNG', 'IMG_2281.PNG', 'IMG_2287.PNG'].includes(name);
+          const isBow = name.startsWith('bow-');
+          const candidates = hasClip && !isClip
+            ? ['bottom-left', 'bottom-right', 'left-mid', 'right-mid']
+            : placements;
+          const placement = isClip
+            ? 'top-center'
+            : candidates.find((candidate, offset) => !usedPlacements.has(candidate) && offset >= (photoIndex + d * 2) % candidates.length)
+              || candidates.find((candidate) => !usedPlacements.has(candidate));
+          usedPlacements.add(placement);
+          decoration.className = `photo-decor ${placement}${isClip ? ' decor-clip' : ''}${isBow ? ' decor-bow' : ''}`;
+          decoration.src = `assets/photo-decor/${name}`;
+          decoration.alt = '';
+          decoration.setAttribute('aria-hidden', 'true');
+          decoration.loading = 'lazy';
+          item.appendChild(decoration);
+        }
+        row.appendChild(item);
+        photoIndex += 1;
+      });
+      photoGrid.appendChild(row);
+    });
+  }
+  if(lifeEnvelope)lifeEnvelope.addEventListener('click',()=>{
+    photoGrid.classList.toggle('open');
+    lifeEnvelope.classList.toggle('open');
+  });
+
+  // ========================================
+  // LABEL PRINTER
+  // ========================================
+  function printLabel() {
+    if (state.labelPrinted) return;
+    state.labelPrinted = true;
+    labelPrinter.classList.add('printed');
+
+    const lines = labelOutput.querySelectorAll('.label-line');
+    lines.forEach((line, i) => {
+      setTimeout(() => {
+        line.classList.add('visible');
+      }, i * 500);
+    });
+  }
+
+  if (labelPrinter) {
+    labelPrinter.addEventListener('click', printLabel);
+  }
+
+  async function copyContact(value, message) {
+    try {
+      await navigator.clipboard.writeText(value);
+    } catch (error) {
+      const temp=document.createElement('textarea');
+      temp.value=value;
+      temp.setAttribute('readonly','');
+      temp.style.position='fixed';
+      temp.style.opacity='0';
+      document.body.appendChild(temp);
+      temp.select();
+      document.execCommand('copy');
+      temp.remove();
+    }
+    if (!copyToast) return;
+    copyToast.textContent=message;
+    copyToast.classList.remove('show');
+    copyToast.offsetHeight;
+    copyToast.classList.add('show');
+    clearTimeout(copyContact.toastTimer);
+    copyContact.toastTimer=setTimeout(()=>copyToast.classList.remove('show'),1900);
+  }
+  $$('.contact-sticker').forEach(btn=>btn.addEventListener('click',()=>{
+    const message=state.lang==='zh'?btn.dataset.messageZh:btn.dataset.messageEn;
+    copyContact(btn.dataset.copy,message);
+  }));
+  // Auto-print on first visit to Contact
+  const contactObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting && !state.labelPrinted) {
+        setTimeout(printLabel, 1500);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  const contactSection = $('#sectionContact');
+  if (contactSection) {
+    contactObserver.observe(contactSection);
+  }
+
+  // ========================================
+  // PIXEL NAVIGATION
+  // ========================================
+  function toggleNav() {
+    state.navOpen = !state.navOpen;
+    if(pixelNav)pixelNav.classList.toggle('nav-open',state.navOpen);
+    if (state.navOpen) {
+      navMenu.classList.add('open');
+    } else {
+      navMenu.classList.remove('open');
+    }
+  }
+
+  if (pixelAvatar) {
+    pixelAvatar.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleNav();
+    });
+  }
+
+  // Nav link clicks
+  $$('.nav-link').forEach((link) => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const index = parseInt(link.dataset.nav);
+      goToSection(index);
+      // Close nav
+      state.navOpen = false;
+      navMenu.classList.remove('open');
+      if(pixelNav)pixelNav.classList.remove('nav-open');
+    });
+  });
+
+  // Close nav when clicking outside
+  document.addEventListener('click', (e) => {
+    if (state.navOpen && !e.target.closest('.pixel-nav')) {
+      state.navOpen = false;
+      navMenu.classList.remove('open');
+      if(pixelNav)pixelNav.classList.remove('nav-open');
+    }
+  });
+
+  // ========================================
+  // KEYBOARD NAVIGATION
+  // ========================================
+  document.addEventListener('keydown', (e) => {
+    if (expModal.classList.contains('open') || (skillModal && skillModal.classList.contains('open'))) return;
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+      e.preventDefault();
+      goToSection(state.currentSection + 1);
+    } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      goToSection(state.currentSection - 1);
+    }
+  });
+
+  // ========================================
+  // WHEEL / SWIPE NAVIGATION
+  // ========================================
+  let wheelTimeout;
+  let wheelIntent = 0;
+  let wheelDirection = 0;
+  document.addEventListener('wheel', (e) => {
+    if (expModal.classList.contains('open') || (skillModal && skillModal.classList.contains('open'))) return;
+    if (transitionOverlay.classList.contains('active')) return;
+    // Education owns the wheel while the pointer is over its paper. It never
+    // hands the same gesture to page navigation, even at either scroll edge.
+    if (e.target.closest('.edu-container')) {
+      e.stopPropagation();
+      return;
+    }
+    if (state.currentSection === 4 && e.target.closest('.skills-stage')) {
+      const scene=+(skillsStage.dataset.scene||0);
+      if (Math.abs(e.deltaY) > 28) {
+        if (e.deltaY > 0 && scene < 2) setSkillsScene(scene+1);
+        else if (e.deltaY < 0 && scene > 0) setSkillsScene(scene-1);
+      }
+      return;
+    }
+    // Check if we're scrolling inside another scrollable container
+    if (e.target.closest('.skills-container') ||
+        e.target.closest('.about-text-area') ||
+        e.target.closest('.filmstrip-track') ||
+        e.target.closest('.life-photo-wall')) {
+      return;
+    }
+
+    const delta = Math.abs(e.deltaY) >= Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
+    const direction = Math.sign(delta);
+    if (!direction) return;
+    if (direction !== wheelDirection) wheelIntent = 0;
+    wheelDirection = direction;
+    wheelIntent += Math.min(Math.abs(delta), 70);
+    clearTimeout(wheelTimeout);
+    wheelTimeout = setTimeout(() => { wheelIntent = 0; wheelDirection = 0; }, 260);
+    if (wheelIntent < 150 || state.pageSwitching) return;
+    wheelIntent = 0;
+
+    if (state.currentSection === 0 && direction > 0) {
+      showAbout();
+    } else if (direction > 0) {
+      goToSection(state.currentSection + 1);
+    } else {
+      goToSection(state.currentSection - 1);
+    }
+  }, { passive: true });
+
+  // Render education award details above the clipped/scrollable content area.
+  function showEduTip(el) {
+    if (!eduFloatingTip) return;
+    eduFloatingTip.textContent = state.lang === 'zh' ? el.dataset.tipZh : el.dataset.tipEn;
+    const rect = el.getBoundingClientRect();
+    eduFloatingTip.style.left = `${Math.max(190, Math.min(window.innerWidth - 190, rect.left + rect.width / 2))}px`;
+    eduFloatingTip.style.top = `${Math.max(90, rect.top)}px`;
+    eduFloatingTip.classList.add('visible');
+  }
+  function hideEduTip() { if (eduFloatingTip) eduFloatingTip.classList.remove('visible'); }
+  $$('.edu-tag-hover').forEach((el) => {
+    el.addEventListener('mouseenter', () => showEduTip(el));
+    el.addEventListener('mouseleave', hideEduTip);
+    el.addEventListener('focus', () => showEduTip(el));
+    el.addEventListener('blur', hideEduTip);
+  });
+
+  // Touch swipe
+  let touchStartX = 0;
+  let touchStartY = 0;
+  document.addEventListener('touchstart', (e) => {
+    if (expModal.classList.contains('open')) return;
+    touchStartX = e.touches[0].clientX;
+    touchStartY = e.touches[0].clientY;
+  }, { passive: true });
+
+  document.addEventListener('touchend', (e) => {
+    if (expModal.classList.contains('open')) return;
+    const dx = e.changedTouches[0].clientX - touchStartX;
+    const dy = e.changedTouches[0].clientY - touchStartY;
+    if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 50) {
+      if (dx < -50) goToSection(state.currentSection + 1);
+      else if (dx > 50) goToSection(state.currentSection - 1);
+    }
+  });
+
+  // ========================================
+  // RESIZE HANDLER
+  // ========================================
+  window.addEventListener('resize', () => {
+    state.isDesktop = window.innerWidth > 768;
+    if (!state.isDesktop) {
+      wrapper.style.transform = 'none';
+    } else {
+      wrapper.style.transform = `translateX(-${state.currentSection * 100}vw)`;
+    }
+  });
+
+  // ========================================
+  // INIT
+  // ========================================
+  function init() {
+    initPhotoGallery();
+    setSkillsScene(0);
+    updateUI();
+
+    // Show about text area immediately if already on about section
+    if (state.currentSection === 1) {
+      if (aboutTextArea) aboutTextArea.classList.add('visible');
+      state.aboutShown = true;
+    }
+  }
+
+  // Run on DOM ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+})();
