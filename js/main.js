@@ -89,6 +89,13 @@
             zh: '协同分析活动效果并复盘总结，发现火车票、接送机等资源位转化效率更高，推动后续活动资源配置优化。',
             en: 'Analyzed campaign performance data and conducted post-campaign reviews, identifying train ticket and airport transfer resources as higher-converting placements and supporting subsequent resource allocation optimization.'
           }
+        },
+        {
+          label: { zh: '问题排查与上线质量', en: 'Issue Diagnosis & Launch QA' },
+          text: {
+            zh: '日常页面巡检中发现「不同车型展示同一图片」易致下单混淆，使用不同账号及 Android/iOS 设备复现问题，排查运营后台配置后整理出现时间、场景与已排查项，拉通产品/技术定位根因并推进解决；上线前完成页面、商品与下单链路的全流程测试，保障活动稳定上线。',
+            en: 'During routine page checks, spotted different car models showing the same image — a potential source of ordering confusion — then reproduced it across accounts and Android/iOS devices, traced the operations-backend configuration, documented the timing, scenarios and items already ruled out, and worked with product and tech teams to locate the root cause. Also ran end-to-end testing of pages, products and the ordering flow before launch to ensure a stable rollout.'
+          }
         }
       ],
       keywords: [
@@ -128,10 +135,17 @@
           }
         },
         {
-          label: { zh: '平台功能优化', en: 'Platform Optimization' },
+          label: { zh: '榜单运营', en: 'Bestseller List Curation' },
           text: {
-            zh: '完成 400+ 组 SKC 商品关联审核与配置，优化详情页关联推荐逻辑；搭建维护覆盖 4 大品类的 500+ 热销商品榜单，推动榜单内 GMV 增长近 200 万元。',
-            en: 'Reviewed and configured 400+ style-colour product associations to improve related-product recommendations; built and maintained rankings for 500+ best sellers across four categories, contributing nearly RMB 2M in GMV growth within ranked products.'
+            zh: '围绕风格、场景、趋势、颜色等维度，参与审核、搭建与走查 500+ 热销榜单（单榜 10–20 件商品）；圈品结合近 30 天销量、好评率与库存深度，并复核主题与风格标签的匹配性，带动榜单内 GMV 增长近 200 万元。',
+            en: 'Reviewed, built and inspected 500+ bestseller lists (typically 10–20 items each) across style, scenario, trend and colour dimensions; selected products using 30-day sales, positive-review rate and stock depth, and double-checked theme and style-tag match, helping lift GMV within ranked products by nearly RMB 2M.'
+          }
+        },
+        {
+          label: { zh: 'AI 质检与功能优化', en: 'AI QA & Feature Optimization' },
+          text: {
+            zh: '对批量创建的榜单进行人工走查时，发现 AI 批量识别结果存在重复 SKC、类目与规则不匹配等问题，按不同类目和关键词梳理后反馈产品与 IT 推进修正；另完成 400+ 组 SKC 商品关联审核与配置，优化详情页关联推荐逻辑。',
+            en: 'While manually reviewing batch-created lists, identified duplicated SKCs and category/rule mismatches in AI-generated results, organised them by category and keyword and fed them back to product and IT teams; also reviewed and configured 400+ SKC associations to improve related-product recommendations.'
           }
         }
       ],
@@ -370,22 +384,24 @@
     if (!data) return;
 
     const lang = state.lang;
-    const title = data.title[lang];
 
-    let html = `<h3>${title}</h3>`;
-    html += `<p style="font-family:var(--font-print);font-size:0.8rem;color:var(--text-light)">${data.date}</p>`;
+    // Heading: title + date
+    let html = `<div class="exp-modal-heading"><h3>${data.title[lang]}</h3><span class="exp-date">${data.date}</span></div>`;
 
-    // Goal
-    html += `<div class="modal-section"><h4>${lang === 'zh' ? '工作目标' : 'Goal'}</h4><p>${data.goal[lang]}</p></div>`;
+    // Goal / overview
+    html += `<p class="exp-goal">${data.goal[lang]}</p>`;
 
-    // Tasks
+    // Task modules grid (numbered, two columns)
+    html += `<div class="exp-module-grid">`;
     data.tasks.forEach((task, i) => {
-      html += `<div class="modal-section"><h4>${task.label[lang]}</h4><p>${task.text[lang]}</p></div>`;
+      const num = String(i + 1).padStart(2, '0');
+      html += `<section><h4>${num}｜${task.label[lang]}</h4><p>${task.text[lang]}</p></section>`;
     });
+    html += `</div>`;
 
     // Keywords
     html += `<div class="modal-keywords">`;
-    data.keywords.forEach((kw, i) => {
+    data.keywords.forEach((kw) => {
       html += `<span class="modal-kw kw-color-${kw.color}" data-kw="${kw[lang]}">${kw[lang]}</span>`;
     });
     html += `</div>`;
@@ -495,6 +511,22 @@
       const en=`<div class="shop-modal-heading"><h3>My Shop · E-commerce Operations</h3>${icons}</div><div class="metric-row"><b>1,000+ orders</b><b>GMV ≈ RMB 100K</b></div><div class="project-copy"><p>Managed product selection, content, traffic acquisition and conversion across Xianyu and RED based on insight into the K-pop market.</p><h4>Traffic</h4><p>Planned product-led content around user interests to improve organic discovery and clicks.</p><h4>Content</h4><p>Analysed high-performing posts and iterated the content strategy around engagement patterns.</p><h4>Data</h4><p>Built an operating dashboard for exposure, add-to-cart, GMV and cancellation rate, then applied segmented promotions and platform campaigns.</p></div>`;
       openSkillModal(state.lang==='zh'?zh:en);
       }
+    } else if(btn.dataset.project==='ai'){
+      const aiTitle=state.lang==='zh'?'AI 探索':'AI Exploration';
+      const aiLink=state.lang==='zh'?'访问我的 GitHub →':'Visit my GitHub →';
+      const aiProjects=state.lang==='zh'
+        ? [
+            { t:'01 · Memento', d:'记忆留存产品原型 — 把现场体验沉淀为可收藏、可分享的记忆。', u:'https://github.com/yy0116237/memento-prototype' },
+            { t:'02 · KPOP DAILY · for you', d:'个性化 K-pop 每日简报生成器 — 把信息流整理成更贴近个人兴趣的每日阅读体验。', u:'https://github.com/yy0116237/kpop-daily' },
+            { t:'03 · Xiaohongshu K-pop Shop Dashboard', d:'小红书 K-pop 店铺经营数据看板 — 将店铺订单数据转化为可阅读、可复用的经营洞察。', u:'https://github.com/yy0116237/xiaohongshu-kpop-dashboard' }
+          ]
+        : [
+            { t:'01 · Memento', d:'A memory-keeping product prototype for turning live experiences into collectible memory cards and shareable posters.', u:'https://github.com/yy0116237/memento-prototype' },
+            { t:'02 · KPOP DAILY · for you', d:'A personalised K-pop daily briefing generator that gathers public news and Melon chart data, then ranks stories around individual preferences and produces a shareable HTML report.', u:'https://github.com/yy0116237/kpop-daily' },
+            { t:'03 · Xiaohongshu K-pop Shop Dashboard', d:'A local weekly operations dashboard for a Xiaohongshu shop, transforming exported order spreadsheets into a self-contained HTML dashboard and reusable reports.', u:'https://github.com/yy0116237/xiaohongshu-kpop-dashboard' }
+          ];
+      const aiList=aiProjects.map(p=>`<a class="ai-project" href="${p.u}" target="_blank" rel="noopener"><h4>${p.t}</h4><p>${p.d}</p></a>`).join('');
+      openSkillModal(`<div class="ai-modal-heading"><span class="ai-icon">✦</span><h3>${aiTitle}</h3></div><div class="project-copy ai-copy"><p class="ai-intro"><strong>Using AI to simplify the everyday, work smarter, and make more room for the things I love.</strong><em>用 AI 简化日常、提升工作效率，也为热爱留出更多时间。</em></p><a class="ai-github-link" href="https://github.com/yy0116237" target="_blank" rel="noopener">${aiLink}</a><div class="ai-project-list">${aiList}</div></div>`);
     } else {
       const covers=escapeCovers.map(x=>`<figure class="film-cell"><span class="film-perf"></span><img src="assets/escape-covers/${x}" alt="Escape to cover"><span class="film-perf"></span></figure>`).join('');
       const intro=state.lang==='zh'?'个人微信公众号运营，分享日常生活与旅行摄影；共发布 8 篇推文，通过朋友圈私域引流与微博联动进行传播。':'Personal WeChat photography account sharing daily life and travel; 8 posts distributed through private social sharing and Weibo.';
@@ -502,7 +534,7 @@
       const controls=state.lang==='zh'
         ? '<button class="film-control" type="button" data-film-direction="prev" aria-label="上一张">‹</button><p class="film-swipe-hint">'+hint+'</p><button class="film-control" type="button" data-film-direction="next" aria-label="下一张">›</button>'
         : '<button class="film-control" type="button" data-film-direction="prev" aria-label="Previous cover">‹</button><p class="film-swipe-hint">'+hint+'</p><button class="film-control" type="button" data-film-direction="next" aria-label="Next cover">›</button>';
-      openSkillModal(`<div class="escape-modal-heading"><img src="assets/escape-logo.png" alt=""><h3>Escape to...</h3></div><div class="project-copy"><p>${intro}</p></div><div class="project-filmstrip">${covers}</div><div class="film-controls">${controls}</div>`, 'film');
+      openSkillModal(`<div class="escape-modal-heading"><img src="assets/escape-logo.PNG" alt=""><h3>Escape to...</h3></div><div class="project-copy"><p>${intro}</p></div><div class="project-filmstrip">${covers}</div><div class="film-controls">${controls}</div>`, 'film');
     }
   }));
 

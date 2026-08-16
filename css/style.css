@@ -46,6 +46,7 @@
   --font-body: 'Segoe UI', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
 
   --transition-speed: 0.6s;
+  --app-height: 100vh;
 }
 
 /* === Reset === */
@@ -67,6 +68,7 @@ body {
   overflow: hidden;
   width: 100vw;
   height: 100vh;
+  height: var(--app-height, 100vh);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -128,6 +130,7 @@ body {
   display: flex;
   width: 600vw;
   height: 100vh;
+  height: var(--app-height, 100vh);
   transition: none;
   will-change: opacity;
 }
@@ -200,6 +203,7 @@ body {
 .section {
   flex: 0 0 100vw;
   height: 100vh;
+  height: var(--app-height, 100vh);
   position: relative;
   overflow-y: auto;
   overflow-x: hidden;
@@ -940,6 +944,58 @@ html[lang="en"] .washi-tape {
 .kw-color-3 { background: rgba(240,230,184,0.3); border-color: var(--yellow); color: #9a8a4a; }
 .kw-color-4 { background: rgba(212,163,115,0.3); border-color: var(--brown); color: #8a6a4a; }
 
+/* Experience modal — enriched card layout (mirrors the My Shop project detail) */
+.exp-modal-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.exp-modal-heading h3 { margin: 0; }
+.exp-date {
+  font-family: var(--font-print);
+  font-size: .78rem;
+  color: var(--text-light);
+  letter-spacing: .02em;
+  white-space: nowrap;
+}
+.exp-goal {
+  margin: 0 0 16px;
+  padding: 12px 14px;
+  background: color-mix(in srgb, var(--note-accent) 26%, #fffdf8);
+  border-left: 3px solid color-mix(in srgb, var(--note-accent) 78%, #9aa8a6);
+  border-radius: 4px;
+  font: 600 .88rem/1.7 var(--font-wenkai);
+  color: var(--text-mid);
+}
+.exp-module-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 12px;
+  margin-bottom: 4px;
+}
+.exp-module-grid section {
+  padding: 12px 14px;
+  background: rgba(255,254,248,.74);
+  border: 1px solid color-mix(in srgb, var(--note-accent) 42%, rgba(136,165,174,.2));
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(77,69,57,.06);
+}
+.exp-module-grid h4 {
+  margin: 0 0 7px;
+  font: 700 .95rem var(--font-wenkai);
+  color: #516c77;
+}
+.exp-module-grid p {
+  margin: 0;
+  font: 600 .85rem/1.7 var(--font-wenkai);
+  color: #566265;
+}
+@media (max-width: 650px) {
+  .exp-module-grid { grid-template-columns: 1fr; }
+}
+
 /* ========================================
    SECTION 4: SKILLS & HOBBIES
    ======================================== */
@@ -982,17 +1038,34 @@ html[lang="en"] .washi-tape {
 .stationery-item.revealed .stationery-title { transform:translateY(-8px); padding-bottom:14px; border-bottom:1px dashed rgba(92,119,129,.28); }
 .stationery-item.revealed .stationery-title span { display:none; }
 .stationery-item.revealed .stationery-detail { max-height:440px; opacity:1; transform:none; padding-top:18px; }
-.project-entries { display:grid; grid-template-columns:repeat(2,minmax(260px,430px)); justify-content:center; gap:clamp(35px,7vw,95px); margin-top:7vh; }
+.project-entries { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); justify-content:center; gap:clamp(22px,3.4vw,44px); margin-top:7vh; max-width:1100px; margin-left:auto; margin-right:auto; }
 .project-entry { min-height:300px; padding:35px 28px; border:0; background:rgba(251,249,241,.9); box-shadow:8px 10px 0 rgba(194,213,217,.42),0 14px 30px rgba(71,64,58,.12); cursor:pointer; transform:rotate(-1.2deg); transition:transform .32s; font-family:var(--font-wenkai); color:#596569; }
 .project-entry:nth-child(2) { transform:rotate(1.1deg); box-shadow:8px 10px 0 rgba(236,202,206,.46),0 14px 30px rgba(71,64,58,.12); }
+.project-entry:nth-child(3) { transform:rotate(.8deg); box-shadow:8px 10px 0 rgba(196,191,206,.42),0 14px 30px rgba(71,64,58,.12); }
 .project-entry:hover { transform:translateY(-8px) rotate(0); }
 .project-icon { display:block; font-size:4rem; color:#91b5c5; }
+.project-entry.project-ai .project-icon { color:#8f89a8; }
 .project-escape-logo { display:block; width:clamp(64px,7vw,94px); height:auto; margin:0 auto; object-fit:contain; }
 .project-entry small,.project-entry strong,.project-entry em { display:block; }
 .project-entry small { font:700 .75rem var(--font-print); letter-spacing:.12em; margin:12px 0; }
 .project-entry strong { font-size:1.4rem; }
 .project-entry em { margin-top:12px; font-style:normal; font-size:.84rem; }
 .project-entry em i { font-style:normal; font-size:.7em; }
+/* AI exploration modal */
+.ai-modal-heading { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+.ai-icon { font-size:2.2rem; color:#8f89a8; line-height:1; }
+.ai-modal-heading h3 { color:#3a3a3a; font-family:var(--font-wenkai); font-weight:700; }
+.ai-copy { gap:16px; }
+.ai-intro { margin:0; padding:14px 16px; background:rgba(238,235,250,.5); border-left:3px solid #a6a0b8; border-radius:4px; }
+.ai-intro strong { display:block; font:700 .98rem/1.55 var(--font-wenkai); color:#4a4a55; }
+.ai-intro em { display:block; margin-top:6px; font:600 .86rem/1.6 var(--font-wenkai); color:#6b6b78; font-style:normal; }
+.ai-github-link { display:inline-flex; align-items:center; gap:6px; align-self:flex-start; padding:10px 18px; background:#2d333b; color:#fff; font:700 .85rem var(--font-print); letter-spacing:.05em; border-radius:6px; text-decoration:none; transition:background .2s, transform .2s; }
+.ai-github-link:hover { background:#11161c; transform:translateY(-1px); }
+.ai-project-list { display:grid; gap:11px; }
+.ai-project { display:block; padding:13px 16px; background:rgba(255,254,248,.72); border:1px solid rgba(136,165,174,.2); border-radius:6px; text-decoration:none; box-shadow:0 3px 10px rgba(77,69,57,.06); transition:transform .2s, border-color .2s; }
+.ai-project:hover { transform:translateY(-2px); border-color:#a6a0b8; }
+.ai-project h4 { margin:0 0 6px; font:700 .98rem var(--font-wenkai); color:#516c77; }
+.ai-project p { margin:0; font:600 .84rem/1.6 var(--font-wenkai); color:#566265; }
 .life-envelope { position:relative; display:grid; place-items:center; width:min(620px,78vw); height:225px; margin:3vh auto 4vh; border:0; background:none; cursor:pointer; color:#566970; font:700 clamp(1.12rem,1.5vw,1.42rem) var(--font-wenkai); }
 .life-envelope img { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; transition:opacity .38s,transform .5s; filter:drop-shadow(0 12px 14px rgba(72,65,57,.13)); }
 .life-envelope .envelope-closed { transform:scaleX(1.16); }
