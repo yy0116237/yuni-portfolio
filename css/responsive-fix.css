@@ -1,0 +1,72 @@
+/* Short desktop viewport fix
+   Keeps scrapbook pages fully visible on browser windows such as 1366×768. */
+
+body {
+  height: 100vh;
+  height: 100svh;
+}
+
+.site-wrapper,
+.section {
+  height: 100vh;
+  height: 100svh;
+}
+
+@media (min-width: 769px) and (max-height: 860px) {
+  .bg-homepage,
+  .bg-about,
+  .bg-edu,
+  .bg-contact-bg {
+    background-size: auto calc(100svh - 86px);
+    background-position: center 46%;
+  }
+
+  .bg-exp,
+  .bg-skills {
+    background-size: auto calc(100svh - 74px);
+    background-position: center 46%;
+  }
+
+  .about-text-area {
+    top: 21.6%;
+    width: 18.2%;
+    transform: translateX(20px) scale(.92);
+    transform-origin: 50% 0;
+  }
+
+  .about-text-area.visible {
+    transform: translateX(0) scale(.92);
+  }
+
+  .about-title {
+    font-size: clamp(1.8rem, 2.65vw, 2.75rem);
+  }
+
+  .about-name {
+    font-size: clamp(1rem, 1.6vw, 1.32rem);
+  }
+
+  .about-body {
+    font-size: clamp(.74rem, 1.04vw, .94rem);
+    line-height: 1.48;
+  }
+
+  .washi-keywords {
+    padding-top: 4px;
+    gap: 4px 6px;
+  }
+
+  .washi-tape {
+    min-height: 24px;
+    font-size: clamp(.74rem, .94vw, .9rem);
+  }
+
+  .pixel-nav {
+    right: 20px;
+    bottom: 22px;
+  }
+
+  .progress-bar {
+    bottom: 8px;
+  }
+}
